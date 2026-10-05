@@ -1,0 +1,330 @@
+{
+  "selection": {
+    "training_source": "T05_smoothing",
+    "backbone": "convnext_tiny.fb_in1k",
+    "loss": "ls",
+    "inference_method": "I04_res288",
+    "inference_resolution": 288,
+    "dtype": "fp32",
+    "temperature_policy": "Fit scalar T on final-resolution val logits separately per seed; never on test.",
+    "baseline": "T00 CE + I00 FP32 224 without calibration",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "reason": "Highest stage5 val macro-F1; measured batch1 p95 15.4685 ms. Temperature is an accuracy-preserving calibration rule motivated by stage5 I07."
+  },
+  "training": {
+    "T00_seed0": {
+      "config": {
+        "exp_id": "T00",
+        "seed": 0,
+        "fold": 0,
+        "backbone": "convnext_tiny.fb_in1k",
+        "init": "finetune",
+        "drop_rate": 0.0,
+        "head_init_std": 0.01,
+        "img_size": 224,
+        "aug": "basic",
+        "sampler": null,
+        "mix": null,
+        "mix_alpha": 1.0,
+        "loss": "ce",
+        "label_smoothing": 0.1,
+        "focal_gamma": 2.0,
+        "class_weight_beta": null,
+        "epochs": 10,
+        "batch_size": 32,
+        "lr_backbone": 0.0001,
+        "lr_head": 0.001,
+        "weight_decay": 0.05,
+        "warmup_epochs": 1.0,
+        "ema_decay": null,
+        "amp": true,
+        "num_workers": 2,
+        "save_test_predictions": false,
+        "debug_train_per_class": null,
+        "debug_val_per_class": null,
+        "measure_gmacs": false
+      },
+      "labels": {
+        "labels.csv": "6fb95b89fd9d384f94e185a5cab6c5da7c987649399c90618ecc60acfb0112eb",
+        "train_subset0.csv": "a2e63f561a545837c8cabaa276a957ccf1293ec985c9d8fbc49d67b4fd5abdb2",
+        "val_subset0.csv": "1fa70a03a68def06c921a1dd7f0b53e96490f6dfad51d7d423bb145161ebc478",
+        "test_subset0.csv": "fb212793b988bc0455aae2e48cb9eb3168014c2f47fbdb93f5f1e284e0974f75"
+      },
+      "code": {
+        "dataset.py": "ed9a77345ac3c10fb0976e769edb4b639773a02889fb4911008a6e8e274ae812",
+        "model.py": "8db5bbca5261bf25eca9842a932aa0bbb4d9ff8bd906118718b09b607dc288fc",
+        "losses.py": "38fb990608065cd860dcedff0be5bcea53cd7429f0f9ad7572b611516676e497",
+        "train.py": "fb7f4bf09a96ca7400de16faa70815199a6b613a2841123ccfed28cebf6ddf14",
+        "eval.py": "1210f3c7ca1cb9b4488383f1ceeaa139bfdf5c683694b300f6c55b6b9cdde28e"
+      }
+    },
+    "F01_seed0": {
+      "config": {
+        "exp_id": "F01",
+        "seed": 0,
+        "fold": 0,
+        "backbone": "convnext_tiny.fb_in1k",
+        "init": "finetune",
+        "drop_rate": 0.0,
+        "head_init_std": 0.01,
+        "img_size": 224,
+        "aug": "basic",
+        "sampler": null,
+        "mix": null,
+        "mix_alpha": 1.0,
+        "loss": "ls",
+        "label_smoothing": 0.1,
+        "focal_gamma": 2.0,
+        "class_weight_beta": null,
+        "epochs": 10,
+        "batch_size": 32,
+        "lr_backbone": 0.0001,
+        "lr_head": 0.001,
+        "weight_decay": 0.05,
+        "warmup_epochs": 1.0,
+        "ema_decay": null,
+        "amp": true,
+        "num_workers": 2,
+        "save_test_predictions": false,
+        "debug_train_per_class": null,
+        "debug_val_per_class": null,
+        "measure_gmacs": false
+      },
+      "labels": {
+        "labels.csv": "6fb95b89fd9d384f94e185a5cab6c5da7c987649399c90618ecc60acfb0112eb",
+        "train_subset0.csv": "a2e63f561a545837c8cabaa276a957ccf1293ec985c9d8fbc49d67b4fd5abdb2",
+        "val_subset0.csv": "1fa70a03a68def06c921a1dd7f0b53e96490f6dfad51d7d423bb145161ebc478",
+        "test_subset0.csv": "fb212793b988bc0455aae2e48cb9eb3168014c2f47fbdb93f5f1e284e0974f75"
+      },
+      "code": {
+        "dataset.py": "ed9a77345ac3c10fb0976e769edb4b639773a02889fb4911008a6e8e274ae812",
+        "model.py": "8db5bbca5261bf25eca9842a932aa0bbb4d9ff8bd906118718b09b607dc288fc",
+        "losses.py": "38fb990608065cd860dcedff0be5bcea53cd7429f0f9ad7572b611516676e497",
+        "train.py": "fb7f4bf09a96ca7400de16faa70815199a6b613a2841123ccfed28cebf6ddf14",
+        "eval.py": "1210f3c7ca1cb9b4488383f1ceeaa139bfdf5c683694b300f6c55b6b9cdde28e"
+      }
+    },
+    "T00_seed1": {
+      "config": {
+        "exp_id": "T00",
+        "seed": 1,
+        "fold": 0,
+        "backbone": "convnext_tiny.fb_in1k",
+        "init": "finetune",
+        "drop_rate": 0.0,
+        "head_init_std": 0.01,
+        "img_size": 224,
+        "aug": "basic",
+        "sampler": null,
+        "mix": null,
+        "mix_alpha": 1.0,
+        "loss": "ce",
+        "label_smoothing": 0.1,
+        "focal_gamma": 2.0,
+        "class_weight_beta": null,
+        "epochs": 10,
+        "batch_size": 32,
+        "lr_backbone": 0.0001,
+        "lr_head": 0.001,
+        "weight_decay": 0.05,
+        "warmup_epochs": 1.0,
+        "ema_decay": null,
+        "amp": true,
+        "num_workers": 2,
+        "save_test_predictions": false,
+        "debug_train_per_class": null,
+        "debug_val_per_class": null,
+        "measure_gmacs": false
+      },
+      "labels": {
+        "labels.csv": "6fb95b89fd9d384f94e185a5cab6c5da7c987649399c90618ecc60acfb0112eb",
+        "train_subset0.csv": "a2e63f561a545837c8cabaa276a957ccf1293ec985c9d8fbc49d67b4fd5abdb2",
+        "val_subset0.csv": "1fa70a03a68def06c921a1dd7f0b53e96490f6dfad51d7d423bb145161ebc478",
+        "test_subset0.csv": "fb212793b988bc0455aae2e48cb9eb3168014c2f47fbdb93f5f1e284e0974f75"
+      },
+      "code": {
+        "dataset.py": "ed9a77345ac3c10fb0976e769edb4b639773a02889fb4911008a6e8e274ae812",
+        "model.py": "8db5bbca5261bf25eca9842a932aa0bbb4d9ff8bd906118718b09b607dc288fc",
+        "losses.py": "38fb990608065cd860dcedff0be5bcea53cd7429f0f9ad7572b611516676e497",
+        "train.py": "fb7f4bf09a96ca7400de16faa70815199a6b613a2841123ccfed28cebf6ddf14",
+        "eval.py": "1210f3c7ca1cb9b4488383f1ceeaa139bfdf5c683694b300f6c55b6b9cdde28e"
+      }
+    },
+    "F01_seed1": {
+      "config": {
+        "exp_id": "F01",
+        "seed": 1,
+        "fold": 0,
+        "backbone": "convnext_tiny.fb_in1k",
+        "init": "finetune",
+        "drop_rate": 0.0,
+        "head_init_std": 0.01,
+        "img_size": 224,
+        "aug": "basic",
+        "sampler": null,
+        "mix": null,
+        "mix_alpha": 1.0,
+        "loss": "ls",
+        "label_smoothing": 0.1,
+        "focal_gamma": 2.0,
+        "class_weight_beta": null,
+        "epochs": 10,
+        "batch_size": 32,
+        "lr_backbone": 0.0001,
+        "lr_head": 0.001,
+        "weight_decay": 0.05,
+        "warmup_epochs": 1.0,
+        "ema_decay": null,
+        "amp": true,
+        "num_workers": 2,
+        "save_test_predictions": false,
+        "debug_train_per_class": null,
+        "debug_val_per_class": null,
+        "measure_gmacs": false
+      },
+      "labels": {
+        "labels.csv": "6fb95b89fd9d384f94e185a5cab6c5da7c987649399c90618ecc60acfb0112eb",
+        "train_subset0.csv": "a2e63f561a545837c8cabaa276a957ccf1293ec985c9d8fbc49d67b4fd5abdb2",
+        "val_subset0.csv": "1fa70a03a68def06c921a1dd7f0b53e96490f6dfad51d7d423bb145161ebc478",
+        "test_subset0.csv": "fb212793b988bc0455aae2e48cb9eb3168014c2f47fbdb93f5f1e284e0974f75"
+      },
+      "code": {
+        "dataset.py": "ed9a77345ac3c10fb0976e769edb4b639773a02889fb4911008a6e8e274ae812",
+        "model.py": "8db5bbca5261bf25eca9842a932aa0bbb4d9ff8bd906118718b09b607dc288fc",
+        "losses.py": "38fb990608065cd860dcedff0be5bcea53cd7429f0f9ad7572b611516676e497",
+        "train.py": "fb7f4bf09a96ca7400de16faa70815199a6b613a2841123ccfed28cebf6ddf14",
+        "eval.py": "1210f3c7ca1cb9b4488383f1ceeaa139bfdf5c683694b300f6c55b6b9cdde28e"
+      }
+    },
+    "T00_seed2": {
+      "config": {
+        "exp_id": "T00",
+        "seed": 2,
+        "fold": 0,
+        "backbone": "convnext_tiny.fb_in1k",
+        "init": "finetune",
+        "drop_rate": 0.0,
+        "head_init_std": 0.01,
+        "img_size": 224,
+        "aug": "basic",
+        "sampler": null,
+        "mix": null,
+        "mix_alpha": 1.0,
+        "loss": "ce",
+        "label_smoothing": 0.1,
+        "focal_gamma": 2.0,
+        "class_weight_beta": null,
+        "epochs": 10,
+        "batch_size": 32,
+        "lr_backbone": 0.0001,
+        "lr_head": 0.001,
+        "weight_decay": 0.05,
+        "warmup_epochs": 1.0,
+        "ema_decay": null,
+        "amp": true,
+        "num_workers": 2,
+        "save_test_predictions": false,
+        "debug_train_per_class": null,
+        "debug_val_per_class": null,
+        "measure_gmacs": false
+      },
+      "labels": {
+        "labels.csv": "6fb95b89fd9d384f94e185a5cab6c5da7c987649399c90618ecc60acfb0112eb",
+        "train_subset0.csv": "a2e63f561a545837c8cabaa276a957ccf1293ec985c9d8fbc49d67b4fd5abdb2",
+        "val_subset0.csv": "1fa70a03a68def06c921a1dd7f0b53e96490f6dfad51d7d423bb145161ebc478",
+        "test_subset0.csv": "fb212793b988bc0455aae2e48cb9eb3168014c2f47fbdb93f5f1e284e0974f75"
+      },
+      "code": {
+        "dataset.py": "ed9a77345ac3c10fb0976e769edb4b639773a02889fb4911008a6e8e274ae812",
+        "model.py": "8db5bbca5261bf25eca9842a932aa0bbb4d9ff8bd906118718b09b607dc288fc",
+        "losses.py": "38fb990608065cd860dcedff0be5bcea53cd7429f0f9ad7572b611516676e497",
+        "train.py": "fb7f4bf09a96ca7400de16faa70815199a6b613a2841123ccfed28cebf6ddf14",
+        "eval.py": "1210f3c7ca1cb9b4488383f1ceeaa139bfdf5c683694b300f6c55b6b9cdde28e"
+      }
+    },
+    "F01_seed2": {
+      "config": {
+        "exp_id": "F01",
+        "seed": 2,
+        "fold": 0,
+        "backbone": "convnext_tiny.fb_in1k",
+        "init": "finetune",
+        "drop_rate": 0.0,
+        "head_init_std": 0.01,
+        "img_size": 224,
+        "aug": "basic",
+        "sampler": null,
+        "mix": null,
+        "mix_alpha": 1.0,
+        "loss": "ls",
+        "label_smoothing": 0.1,
+        "focal_gamma": 2.0,
+        "class_weight_beta": null,
+        "epochs": 10,
+        "batch_size": 32,
+        "lr_backbone": 0.0001,
+        "lr_head": 0.001,
+        "weight_decay": 0.05,
+        "warmup_epochs": 1.0,
+        "ema_decay": null,
+        "amp": true,
+        "num_workers": 2,
+        "save_test_predictions": false,
+        "debug_train_per_class": null,
+        "debug_val_per_class": null,
+        "measure_gmacs": false
+      },
+      "labels": {
+        "labels.csv": "6fb95b89fd9d384f94e185a5cab6c5da7c987649399c90618ecc60acfb0112eb",
+        "train_subset0.csv": "a2e63f561a545837c8cabaa276a957ccf1293ec985c9d8fbc49d67b4fd5abdb2",
+        "val_subset0.csv": "1fa70a03a68def06c921a1dd7f0b53e96490f6dfad51d7d423bb145161ebc478",
+        "test_subset0.csv": "fb212793b988bc0455aae2e48cb9eb3168014c2f47fbdb93f5f1e284e0974f75"
+      },
+      "code": {
+        "dataset.py": "ed9a77345ac3c10fb0976e769edb4b639773a02889fb4911008a6e8e274ae812",
+        "model.py": "8db5bbca5261bf25eca9842a932aa0bbb4d9ff8bd906118718b09b607dc288fc",
+        "losses.py": "38fb990608065cd860dcedff0be5bcea53cd7429f0f9ad7572b611516676e497",
+        "train.py": "fb7f4bf09a96ca7400de16faa70815199a6b613a2841123ccfed28cebf6ddf14",
+        "eval.py": "1210f3c7ca1cb9b4488383f1ceeaa139bfdf5c683694b300f6c55b6b9cdde28e"
+      }
+    }
+  },
+  "inference": {
+    "F01": [
+      "F01_res288",
+      "single",
+      "prob",
+      288,
+      "fp32"
+    ],
+    "T00": [
+      "T00_I00",
+      "single",
+      "prob",
+      224,
+      "fp32"
+    ],
+    "temperature_fit": "full_val_per_seed_before_test",
+    "baseline_temperature": 1,
+    "test_policy": "one complete forward traversal per run, uncal/cal share logits"
+  },
+  "code_sha256": {
+    "stage5.py": "afca56d41fba3419f62695ebe2d334cc327437bfe4c21e3bcfd57233eed36184",
+    "model.py": "8db5bbca5261bf25eca9842a932aa0bbb4d9ff8bd906118718b09b607dc288fc",
+    "stage4.py": "bf0aaa83e1223279fc34e757ab951362a38a9be3f0833b7ccf86dce56e5f7c16",
+    "losses.py": "38fb990608065cd860dcedff0be5bcea53cd7429f0f9ad7572b611516676e497",
+    "stage3.py": "a4a7ef3a398023cfe50a166300a60837f8ec8c8e61d21604c9e63cb1c73d7d19",
+    "train.py": "fb7f4bf09a96ca7400de16faa70815199a6b613a2841123ccfed28cebf6ddf14",
+    "eval.py": "1210f3c7ca1cb9b4488383f1ceeaa139bfdf5c683694b300f6c55b6b9cdde28e",
+    "stage1.py": "f1a9bdae86d35820385978c2ee84e11f295d202850370a0eb7fa166980aaf7bd",
+    "smoke_checks.py": "7b7963f1e26255e22d5034d942b656e89a3e6ac93d0948ac2c09e552d802b68b",
+    "stage6.py": "148161cedfb5fabbc5c65f16871e21b5a47b2fcfb1c11d11feab83da587c2797",
+    "dataset.py": "ed9a77345ac3c10fb0976e769edb4b639773a02889fb4911008a6e8e274ae812",
+    "benchmark.py": "f43f2d35794d930f56fafb0e4a58fa1e7b81a88f6220b69b3f1bebe110649b4e",
+    "inference.py": "06c8e94230b2d45d307b6cf0b915d0effb3e8fec7689c77587c41b5efc26c7b4"
+  }
+}

@@ -1,0 +1,23 @@
+### T00 (3 seed: [0, 1, 2]; 3507 ảnh)
+
+| Chỉ số | mean ± std |
+|---|---|
+| top-1 accuracy | 0.9677 ± 0.0004 |
+| macro-F1 | 0.9586 ± 0.0015 |
+| balanced accuracy | 0.9573 ± 0.0021 |
+| ECE (15 bin) | 0.0095 ± 0.0011 |
+| NLL | 0.1044 ± 0.0010 |
+
+| Lớp | Precision | Recall | F1 | Số ảnh |
+|---|---|---|---|---|
+| Chinee apple | 0.942 ± 0.005 | 0.903 ± 0.004 | 0.922 ± 0.003 | 226 |
+| Lantana | 0.963 ± 0.012 | 0.970 ± 0.005 | 0.967 ± 0.005 | 213 |
+| Parkinsonia | 0.968 ± 0.013 | 0.984 ± 0.007 | 0.976 ± 0.005 | 207 |
+| Parthenium | 0.991 ± 0.003 | 0.940 ± 0.010 | 0.965 ± 0.005 | 205 |
+| Prickly acacia | 0.922 ± 0.009 | 0.966 ± 0.011 | 0.943 ± 0.005 | 213 |
+| Rubber vine | 0.968 ± 0.002 | 0.952 ± 0.028 | 0.960 ± 0.014 | 202 |
+| Siam weed | 0.962 ± 0.018 | 0.986 ± 0.000 | 0.974 ± 0.009 | 215 |
+| Snake weed | 0.950 ± 0.008 | 0.935 ± 0.014 | 0.942 ± 0.007 | 204 |
+| Negative | 0.977 ± 0.005 | 0.980 ± 0.003 | 0.979 ± 0.002 | 1822 |
+
+Đã lưu kết quả vào D:\VinAI\Phase2\K4-Track4-Day2-LuuQuangKhai-02599Deeplearning-Advance\submissions\02599_LuuQuangKhai\validation\stage7_audit/T00_*

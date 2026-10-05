@@ -1,0 +1,5 @@
+{
+  "p95_ms": 17.92099714948563,
+  "aggregation": "max of measured final p95 across3 seeds",
+  "condition": "batch1 FP32 288 + temperature; 10warmup100measure; preprocessing excluded"
+}

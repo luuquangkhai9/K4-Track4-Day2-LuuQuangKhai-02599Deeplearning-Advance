@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "all7_sheets_reviewed": true,
+  "source_cells_checked": 1557,
+  "cached_numeric_values_match_sources_tolerance": 1e-07,
+  "mean_std_delta_formulas_verified": true,
+  "header_panes": "B5",
+  "native_excel_checked": false
+}

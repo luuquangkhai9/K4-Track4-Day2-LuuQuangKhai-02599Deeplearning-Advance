@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "read_only": true,
+  "evaluator_unchanged": true,
+  "final_baseline_seeds": [
+    0,
+    1,
+    2
+  ],
+  "test_rows_per_seed": 3507,
+  "ddof": 1,
+  "xlsx_sheets": [
+    "Summary",
+    "Final",
+    "Backbones",
+    "Training",
+    "Inference",
+    "PerClass",
+    "Latency"
+  ],
+  "epoch_training_curves": 21,
+  "overfit_curve": 1,
+  "manifest_files_verified": null,
+  "final_test_macro_f1": {
+    "mean": 0.9694669038332305,
+    "std": 0.001956809873347941
+  },
+  "final_test_top1": {
+    "mean": 0.9764280961885753,
+    "std": 0.0005935745650031571
+  },
+  "rubric_I_proposed": 20,
+  "known_limitations": [
+    "T07 is a single-loss repeat, not a multi-factor interaction.",
+    "Checkpoint weights are retained in Kaggle output, absent from the small result ZIP.",
+    "Workbook was rendered and audited; native Excel behavior was not checked."
+  ]
+}

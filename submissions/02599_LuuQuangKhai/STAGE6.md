@@ -69,5 +69,12 @@ checkpoint nên không đủ resume phần train. Giữ frozen_recipe, logits v�
 Kiểm tra local:8/8 test điều khiển/fixture đạt (không train thực), gồm khóa recipe,
 khóa test sau lần bắt đầu, xuất uncal/cal cùng một forward, recovery từ cache, thứ tự
 train→val→test, std từ prediction fixtures và lệnh score/grade chính thức trên fixture. Kaggle chạy lại pipeline, inference và
-stage6 checks trước train. Chưa có kết quả GPU chặng6; chưa có con số test điền sẵn.
-Chặng7 sẽ tổng hợp results.xlsx/report và audit bài nộp từ kết quả thật.
+stage6 checks trước train. Kết quả GPU đã được nhận và kiểm tra tại chặng7;
+results.xlsx/report tổng hợp từ kết quả thật, không chạy lại model trên test.
+
+## Trạng thái hoàn tất
+
+Đã nhận kết quả Kaggle, xác nhận đủ6 test receipts và3 seed mỗi cấu hình. Predictions/logits,
+calibration/freeze, mean/std và grade gốc đã audit. Final test macro-F1 0.9694669±0.0019568,
+top1 0.9764281±0.0005936, p95 batch1 max17.921ms; grade phầnI đề xuất20/20.
+Bài nộp chặng7: results.xlsx, report.md, curves, predictions và README đã hoàn thiện.

@@ -1,99 +1,71 @@
-# Bài làm DeepWeeds — 02599 Lưu Quang Khải
+# DeepWeeds — 02599 Lưu Quang Khải
 
-## Trạng thái
+## Kết quả đã kiểm tra
 
-Chặng 1 đã hoàn thành tại local và Kaggle; output Kaggle đã đối chiếu ngày 2026-10-04.
-Chặng 2 đã triển khai dataset/model/loss/train và notebook kiểm tra; xem [STAGE2.md](STAGE2.md).
-Notebook chặng 2 tự chứa code và nhãn: chỉ import `.ipynb`, gắn dataset ảnh, không cần dataset code riêng.
-Chặng 2 đã xác nhận trên Kaggle ngày 2026-10-05, kết quả ở `validation/stage2_kaggle/`.
-[Chặng 3](STAGE3.md) đã hoàn tất trên Kaggle và đối chiếu ngày 2026-10-05: đủ năm backbone,
-ConvNeXt-Tiny dẫn đầu macro-F1 val 0.964603. Kết quả ở `validation/stage3_kaggle/`.
-[Chặng 4](STAGE4.md) đã hoàn tất tám run trên Kaggle, đối chiếu ngày 2026-10-05;
-kết quả ở `validation/stage4_kaggle/`. T05 label smoothing dẫn đầu macro-F1 val0.964664,
-chỉ hơn T00 0.0000612; ECE tăng lên0.094831. Giữ cả T05 và T00 để đối chiếu chặng5.
-T07 lặp cùng recipe/seed T05, không phải seed độc lập hay kết hợp nhiều thay đổi.
-[Chặng5](STAGE5.md) đã xác nhận16 cấu hình trên Kaggle. T05 +suy luận288 dẫn đầu:
-macro-F1 val0.970583, top1 0.978006, p95 batch1 15.47ms. Evidence ở `validation/stage5_kaggle/`.
-Đã chuẩn bị [chặng6](STAGE6.md): notebook `code/kaggle_stage6.ipynb` tự chứa code,
-train lại F01(label smoothing, suy luận288+temperature) và T00(CE, suy luận224) với3 seed.
-Chốt recipe trước test, một vòng test/run; std mẫu ddof1, chạy score/grade gốc.
-Chưa có kết quả GPU/test chặng6.
-Notebook Kaggle: sẽ điền link sau khi chạy. Không coi kiểm tra CPU local là kiểm tra GPU Kaggle.
+Final **F01: ConvNeXt-Tiny + label smoothing0.1, một view FP32 288px +temperature fit trên val từng seed**. Mốc **T00: cùng backbone, CE, một view FP32 224px, không calibration**. Đã hoàn tất chặng1–7; số liệu từ Kaggle được đối chiếu bằng evaluator gốc.
 
-## Chạy trên Kaggle
+| Test, ba seed0/1/2 | F01 mean ± std | T00 mean ± std |
+|---|---|---|
+| Macro-F1 | **0.96947 ± 0.00196** | 0.95860 ± 0.00148 |
+| Top-1 | **97.6428% ± 0.0594 pp** | 96.7684% ± 0.0436 pp |
+| ECE | **0.00663 ± 0.00040** | 0.00946 ± 0.00111 |
 
-1. Tạo dataset **Private** chứa `images.zip` ở gốc repo.
-2. Tạo dataset **Private** thứ hai chứa `kaggle_stage1_code.zip` ở gốc repo.
-3. Tạo notebook bằng cách import `code/kaggle_stage1.ipynb` trong thư mục bài nộp này.
-4. Add Input cả hai dataset. Notebook nhận cả ZIP nguyên và dữ liệu đã được Kaggle giải nén.
-5. Bật Internet để cài thư viện nếu thiếu. Chặng 1 chạy được bằng CPU; bật GPU ở cell kiểm tra
-   nếu muốn xác nhận sẵn môi trường cho chặng 2. Không cần giữ GPU chạy khi đang upload dữ liệu.
-6. Run All. Nếu có nhiều nguồn code/ảnh giống nhau, bỏ nguồn cũ khỏi notebook rồi chạy lại.
-7. Kiểm tra dòng `PASS`, bảng đếm và hai ảnh EDA. Lưu phiên notebook và tải
-   `/kaggle/working/stage1_results.zip` về local.
-8. Gửi `stage1_summary.json` hoặc toàn bộ `stage1_results.zip` để tiếp tục chặng 2.
-   Nếu lỗi, gửi toàn bộ traceback và số cell; chưa chạy cell tiếp theo.
+Std mẫu ddof1; pp là điểm phần trăm. Final p95 batch1 lớn nhất qua ba seed **17.92ms trên Tesla T4**, loại decode/resize/normalize/CPU→GPU. `official/grade_I.json` đề xuất **20/20 phần I**, không phải điểm toàn bài.
 
-Không sửa CSV chia tập, không tự chia lại dữ liệu. Chỉ xem mẫu ảnh từ train.
-Thư mục `/kaggle/input` là nguồn đọc; notebook chép code sang `/kaggle/working/deepweeds_stage1`.
-Cell kiểm tra đọc đủ 17.509 ảnh nên có thể mất vài phút. Cell này không train.
+**Giới hạn:** T07 cùng recipe/seed T05, chưa thử tương tác nhiều yếu tố thật. Báo cáo ghi rõ, không nhận điểm cho phần chưa thử. Không tìm cấu hình mới sau test. ZIP kết quả nhỏ không chứa trọng số; audit xác nhận hashes/receipts/logits/predictions, chưa trực tiếp nạp lại checkpoint. Giữ trọng số trong Kaggle saved output.
 
-## Đầu ra chặng 1
+## Sản phẩm
 
-- `stage1_summary.json`: số ảnh từng tập, giao, hợp, checksum CSV, kích thước/kênh ảnh, môi trường.
-- `class_counts.csv`: số lượng từng lớp theo split.
-- `class_distribution.png`: biểu đồ phân bố lớp.
-- `train_samples.png`: ba ảnh train mỗi lớp, lấy cố định với seed 0.
-- `sample_manifest.csv`: nguồn của 27 ảnh minh họa.
-- `label_discrepancies.csv`: khác biệt nhãn giữa CSV split và labels.csv, nếu có.
-- `pip-freeze.txt`: thư viện trong phiên Kaggle.
+- [results.xlsx](results.xlsx): đúng7 sheet Summary, Final, Backbones, Training, Inference, PerClass, Latency; nguồn từng dòng và công thức mean/std/delta.
+- [report.md](report.md): thiết lập, kết quả, ma trận nhầm lẫn, ảnh lỗi và hạn chế.
+- `curves/`:19 curve B/T/F +2 curve pipeline +1 overfit. Manifest ánh xạ21 run theo epoch tới history/config; overfit từ stage2/smoke.
+- `predictions/`: test/val mọi seed final/baseline và F01_uncal, kèm screening. T00 seed0 ở đây là chặng6; snapshot chặng4 giữ riêng trong validation.
+- `code/`, `tests/`, `labels/`: implementation, notebook, evaluator nguyên byte, kiểm tra các phần dễ sai, CSV gốc.
+- `official/`, `validation/`, `figures/`, `confusions/`: score/grade, log/config/environment/logits/receipt, audit và ảnh phân tích.
 
-`eda/local/` là kết quả kiểm tra thật tại local, không phải kết quả Kaggle.
-`labels/` chứa bốn CSV gốc tải từ AlexOlsen/DeepWeeds; SHA256 được ghi trong summary.
-`code/eval.py` là bản sao nguyên vẹn từ repo, không chỉnh sửa.
+Không đóng gói dataset ảnh, checkpoint lớn, cache thư viện hoặc .git. Không commit dataset/checkpoint vào git.
 
-## Kết quả kiểm tra local ngày 2026-10-04
+## Notebook và chạy lại
 
-- Train: 10.501; val: 3.501; test: 3.507. Hợp: 17.509, mọi giao bằng 0.
-- Đọc và giải mã thành công tất cả ảnh: RGB 256×256. MD5 ZIP đúng.
-- Có **một khác biệt nhãn trong nguồn gốc**: `20170714-110407-3.jpg` có Label=0
-  trong train_subset0.csv, nhưng Label=1 trong labels.csv. Không tự sửa CSV.
-  Thống kê theo split có 1.126 Chinee apple và 1.063 Lantana; theo labels.csv là
-  1.125 và 1.064. Đã lưu chi tiết để báo cáo/trao đổi với giảng viên.
-- Kiểm tra tính toàn vẹn đạt PASS; PASS không có nghĩa nguồn không có khác biệt nhãn.
-- 38 test sẵn có của repo đạt khi bật UTF-8 trên Windows (`$env:PYTHONUTF8='1'`).
-  Các test này kiểm tra evaluator/bộ khung, chưa chứng minh pipeline train đã triển khai.
-- Notebook đã kiểm tra cú pháp tại local; kết quả chạy Kaggle được xác nhận bên dưới.
+Notebook đã chạy: **[day2-lab-phase2 trên Kaggle](https://www.kaggle.com/code/luuquangkhai/day2-lab-phase2)**. Nếu private, cần quyền xem. Có thể import các notebook lưu trong code/ vào tài khoản khác. Chặng2–6 giữ output đã trả trong source.
 
-## Xác nhận kết quả Kaggle ngày 2026-10-04
+| Chặng | Notebook | Input/mục đích |
+|---|---|---|
+| 1 | code/kaggle_stage1.ipynb | Ảnh +bundle code chặng1; EDA; stage1.py có CLI |
+| 2 | code/kaggle_stage2.ipynb | Chỉ ảnh, code tự chứa; overfit,1epoch,resume |
+| 3 | code/kaggle_stage3.ipynb | Chỉ ảnh;5 backbone seed0 |
+| 4 | code/kaggle_stage4.ipynb | Chỉ ảnh;3 trục ablation |
+| 5 | code/kaggle_stage5.ipynb | Ảnh +output chặng4 có best.pt T00/T05;16 cấu hình suy luận |
+| 6 | code/kaggle_stage6.ipynb | Chỉ ảnh;train mới final/baseline3 seed, freeze rồi test |
+| 7 | Audit/tổng hợp | Chỉ đọc kết quả đã lưu, không chạy lại model trên test |
 
-Đã nhận `stage1_results.zip`, kiểm tra CRC của archive và lưu kết quả ở `eda/kaggle/`.
-Summary, số lượng lớp, danh sách 27 ảnh minh họa và khác biệt nhãn khớp kết quả local.
-Bốn CSV nhãn trong archive khớp từng byte với bản local và SHA256 đã ghi.
+Dataset ảnh của phiên đã chạy: `/kaggle/input/datasets/luuquangkhai/data-labd2/images`. Bật **GPU+Internet**, giữ recipe, **Save Version → Save & Run All**. Chặng6 là đường tái lập final ngắn nhất, không cần checkpoint cũ. Code dùng một T4/cuda:0;10epoch/run,batch32. Ngân sách mềm6h không phải cam kết hạn mức Kaggle.
 
-- Trạng thái kiểm tra dữ liệu: PASS. Giữ nguyên khác biệt nhãn đã nêu ở trên.
-- GPU: 2 × Tesla T4; Python 3.13.15; PyTorch 2.11.0+cu128; CUDA 12.8.
-- NumPy 2.1.3; pandas 2.3.3; matplotlib 3.10.0. Chi tiết ở `eda/kaggle/pip-freeze.txt`.
-- Nguồn ảnh: `/kaggle/input/datasets/luuquangkhai/data-labd2/images`.
-- `zip_md5=null` là đúng vì Kaggle đọc thư mục ảnh đã giải nén; không tính checksum ZIP
-  tại Kaggle. Kiểm tra decode đủ ảnh và kích thước/kênh đã đạt; không suy ra ảnh khớp
-  từng byte với ZIP local từ các kiểm tra này.
-- Sẵn sàng chặng 2. Nhìn thấy hai GPU không có nghĩa code tự dùng cả hai;
-  kiểm tra pipeline ban đầu sẽ dùng một GPU trước.
+Resume lần chạy dở: add saved output đúng chặng, đặt PREVIOUS_OUTPUT tới deepweeds_stageX/outputs. Giữ nguyên code/config và frozen_recipe/test receipts. Train resume ở ranh giới epoch. Test đã có cache chỉ xuất lại CSV/metrics; ngắt giữa test trước cache đầy đủ sẽ dừng, không tự rerun. Không xoá marker hoặc đổi recipe sau khi xem test. Một lần tái lập độc lập ở output mới phải ghi là lần chạy mới, không chọn bộ test tốt hơn để thay bài đã chốt.
 
-## Chạy lại chặng 1 tại local
+## Môi trường và recipe
 
-Từ gốc repo, cài numpy, pandas, matplotlib và pillow nếu thiếu rồi chạy:
+Python3.13.15, torch2.11.0+cu128, torchvision0.26.0+cu128, CUDA12.8, timm1.0.30, numpy2.1.3, pandas2.3.3, matplotlib3.10.0, Pillow12.3.0. Snapshot đầy đủ `validation/stage6_kaggle/pip-freeze.txt`. Kaggle notebook giữ torch/torchvision có sẵn và cài timm nếu thiếu. Local kiểm tra evaluator chỉ cần numpy/pandas, không cần GPU.
+
+Original fold0:train10501/val3501/test3507. Fine-tune pretrained; head Normal(0,0.01)/bias0. RandomResizedCrop bicubic224+horizontal flip; AdamW LR backbone1e-4/head1e-3, wd0.05 trừ norm/bias; warmup1+cosine, AMP train, không EMA/sampler/mix final. Chọn epoch bằng macro-F1 val224, hòa epoch sớm hơn. Seed0/1/2 điều khiển shuffle/augmentation/head. F01 val/test288 resize329 center crop, T fit trên val288 mỗi seed; T00 resize256 center crop224,T1. Hashes/recipe nằm trong stage6_selection.json và validation/stage6_kaggle/frozen_recipe.json.
+
+Giữ bất nhất nguồn `20170714-110407-3.jpg`: train Label0, master Label1; không sửa CSV. Chia ngẫu nhiên không đảm bảo độc lập địa điểm/mùa; test fold0 chưa chứng minh ngoài miền.
+
+## Kiểm tra lại từ predictions, không chạy model
+
+Từ thư mục bài nộp, môi trường có numpy/pandas:
 
 ```powershell
-python submissions/02599_LuuQuangKhai/code/stage1.py --images images.zip --labels submissions/02599_LuuQuangKhai/labels --output submissions/02599_LuuQuangKhai/eda/local
+python code/eval.py score --pred "predictions/F01_seed*_test.csv" --test-csv labels/test_subset0.csv --labels labels/labels.csv --tag F01
+python code/eval.py score --pred "predictions/T00_seed*_test.csv" --test-csv labels/test_subset0.csv --labels labels/labels.csv --tag T00
+python code/eval.py grade --final "predictions/F01_seed*_test.csv" --baseline "predictions/T00_seed*_test.csv" --uncal "predictions/F01_uncal_seed*_test.csv" --final-val "predictions/F01_seed*_val.csv" --test-csv labels/test_subset0.csv --val-csv labels/val_subset0.csv --labels labels/labels.csv --latency-p95-ms 17.92099714948563 --latency-method proper
+python code/audit_submission.py
 ```
 
-## Các chặng tiếp theo
+Windows console cũ: đặt `$env:PYTHONUTF8='1'`. Score/grade chỉ đọc CSV, không train, không fit trên test. Local audit chặng7 kiểm tra predictions/NPZ, mean/std ddof1, calibrated/uncal dùng chung logits, freeze/test receipts và latency samples. Workbook đã recalculation, thử thay đổi một seed rồi khôi phục, scan không có lỗi công thức và render từng sheet. Chưa kiểm tra trong Excel native; số xlsx khớp evaluator trong tolerance1e-7, hiển thị4 chữ số nhưng giữ giá trị đầy đủ.
 
-1. Chặng 2: pipeline train, kiểm tra một batch, một epoch và resume.
-2. Chặng 3: năm backbone theo cùng recipe.
-3. Chặng 4: ablation ba trục và một kết hợp.
-4. Chặng 5: bốn phương pháp suy luận ngoài mốc, đo độ trễ.
-5. Chặng 6: final và baseline với ít nhất ba seed; test sau khi chốt cấu hình trên val.
-6. Chặng 7: xuất results.xlsx, report.md và đối chiếu bằng eval.py.
+## Nguồn và kiểm tra gói nộp
+
+validation/stage2_kaggle:pipeline/smoke; stage3_kaggle:B01…B05; stage4_kaggle:T00…T07; stage5_kaggle:inference/latency; stage6_kaggle:sáu run final/baseline và raw test cache; stage7_audit:score/grade tính lại, nguồn xây workbook và audit. Fixtures/local smoke không được coi là thí nghiệm DeepWeeds GPU.
+
+submission_manifest.json ghi SHA256 mọi file trong gói. audit_submission.py kiểm tra manifest nếu có. Gói `02599_LuuQuangKhai_submission.zip` nằm cạnh thư mục bài làm. Giữ output Kaggle có checkpoint để tiếp tục nghiên cứu; không thay đổi final hoặc đánh giá thêm cấu hình trên test bài nộp này.

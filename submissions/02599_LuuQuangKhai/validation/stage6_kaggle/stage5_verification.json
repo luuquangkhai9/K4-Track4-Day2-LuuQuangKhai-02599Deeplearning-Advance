@@ -1,0 +1,140 @@
+{
+  "archive_sha256": "4f733e28186f622457e9b8efc22e8088f2eda24b78edf9ce67a32afb0f65176d",
+  "crc": "PASS",
+  "code_bytes_match": true,
+  "official_evaluator_unchanged": true,
+  "all16_full_val_predictions_logits_metrics_match": true,
+  "latency_samples_percentiles_match": true,
+  "notebook_errors": 0,
+  "test_evaluated": false,
+  "runs": [
+    {
+      "training_exp": "T00",
+      "method": "I00",
+      "macro_f1": 0.9646030418618088,
+      "top1": 0.9725792630676949,
+      "ece": 0.0074167083947443745
+    },
+    {
+      "training_exp": "T00",
+      "method": "I01_hflip",
+      "macro_f1": 0.962892471998727,
+      "top1": 0.9720079977149386,
+      "ece": 0.008822986326763723
+    },
+    {
+      "training_exp": "T00",
+      "method": "I02_5crop_prob",
+      "macro_f1": 0.9677561492257156,
+      "top1": 0.9751499571550986,
+      "ece": 0.007461688617537919
+    },
+    {
+      "training_exp": "T00",
+      "method": "I03_5crop_logit",
+      "macro_f1": 0.9677269868725923,
+      "top1": 0.9751499571550986,
+      "ece": 0.009054549157383636
+    },
+    {
+      "training_exp": "T00",
+      "method": "I04_res256",
+      "macro_f1": 0.9656230051930876,
+      "top1": 0.9737217937732077,
+      "ece": 0.00874354052270778
+    },
+    {
+      "training_exp": "T00",
+      "method": "I04_res288",
+      "macro_f1": 0.9671701134299321,
+      "top1": 0.9745786918023421,
+      "ece": 0.01097294011710926
+    },
+    {
+      "training_exp": "T00",
+      "method": "I07_temperature",
+      "macro_f1": 0.9646030418618088,
+      "top1": 0.9725792630676949,
+      "ece": 0.005571061013996
+    },
+    {
+      "training_exp": "T00",
+      "method": "I08_amp",
+      "macro_f1": 0.9643381166958821,
+      "top1": 0.9722936303913168,
+      "ece": 0.0070286700457012664
+    },
+    {
+      "training_exp": "T05_smoothing",
+      "method": "I00",
+      "macro_f1": 0.9646642447562856,
+      "top1": 0.9740074264495858,
+      "ece": 0.09483086655812613
+    },
+    {
+      "training_exp": "T05_smoothing",
+      "method": "I01_hflip",
+      "macro_f1": 0.9666248442559423,
+      "top1": 0.9745786918023421,
+      "ece": 0.09643649309340185
+    },
+    {
+      "training_exp": "T05_smoothing",
+      "method": "I02_5crop_prob",
+      "macro_f1": 0.9664931294268574,
+      "top1": 0.9751499571550986,
+      "ece": 0.09940345739788628
+    },
+    {
+      "training_exp": "T05_smoothing",
+      "method": "I03_5crop_logit",
+      "macro_f1": 0.9664931294268574,
+      "top1": 0.9751499571550986,
+      "ece": 0.09676517323336192
+    },
+    {
+      "training_exp": "T05_smoothing",
+      "method": "I04_res256",
+      "macro_f1": 0.968771812188461,
+      "top1": 0.9768637532133676,
+      "ece": 0.09218735054555843
+    },
+    {
+      "training_exp": "T05_smoothing",
+      "method": "I04_res288",
+      "macro_f1": 0.9705828336886112,
+      "top1": 0.9780062839188803,
+      "ece": 0.09620914711796634
+    },
+    {
+      "training_exp": "T05_smoothing",
+      "method": "I07_temperature",
+      "macro_f1": 0.9646642447562856,
+      "top1": 0.9740074264495858,
+      "ece": 0.006075891845186995
+    },
+    {
+      "training_exp": "T05_smoothing",
+      "method": "I08_amp",
+      "macro_f1": 0.9646642447562856,
+      "top1": 0.9740074264495858,
+      "ece": 0.09489012449300196
+    }
+  ],
+  "stage6_selection": {
+    "training_source": "T05_smoothing",
+    "backbone": "convnext_tiny.fb_in1k",
+    "loss": "ls",
+    "inference_method": "I04_res288",
+    "inference_resolution": 288,
+    "dtype": "fp32",
+    "temperature_policy": "Fit scalar T on final-resolution val logits separately per seed; never on test.",
+    "baseline": "T00 CE + I00 FP32 224 without calibration",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "reason": "Highest stage5 val macro-F1; measured batch1 p95 15.4685 ms. Temperature is an accuracy-preserving calibration rule motivated by stage5 I07."
+  }
+}

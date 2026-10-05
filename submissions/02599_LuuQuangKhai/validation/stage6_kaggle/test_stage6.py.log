@@ -1,0 +1,29 @@
+Training/resuming T00 seed 0
+Training/resuming F01 seed 0
+Training/resuming T00 seed 1
+Training/resuming F01 seed 1
+Training/resuming T00 seed 2
+Training/resuming F01 seed 2
+Final test export T00 seed 0
+Final test export F01 seed 0
+Final test export T00 seed 1
+Final test export F01 seed 1
+Final test export T00 seed 2
+Final test export F01 seed 2
+{
+  "status": "incomplete"
+}
+
+test_all_training_and_val_finish_before_first_test (__main__.FinalTests.test_all_training_and_val_finish_before_first_test) ... ok
+test_atomic_cache_recovery_requires_matching_identity (__main__.FinalTests.test_atomic_cache_recovery_requires_matching_identity) ... ok
+test_calibrated_uncalibrated_exports_share_one_forward_and_resume (__main__.FinalTests.test_calibrated_uncalibrated_exports_share_one_forward_and_resume) ... ok
+test_freeze_rejects_changes (__main__.FinalTests.test_freeze_rejects_changes) ... ok
+test_official_cli_score_and_grade_use_exported_files (__main__.FinalTests.test_official_cli_score_and_grade_use_exported_files) ... ok
+test_seed_plan_and_recipe_guard (__main__.FinalTests.test_seed_plan_and_recipe_guard) ... ok
+test_started_without_complete_cache_cannot_rerun (__main__.FinalTests.test_started_without_complete_cache_cannot_rerun) ... ok
+test_summary_uses_sample_std_from_actual_prediction_files (__main__.FinalTests.test_summary_uses_sample_std_from_actual_prediction_files) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 4.427s
+
+OK

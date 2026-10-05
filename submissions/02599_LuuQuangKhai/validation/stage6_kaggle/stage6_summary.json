@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "test_runs_completed": 6,
+  "planned_test_runs": 6,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "ddof": 1,
+  "config_frozen": true,
+  "no_retuning_after_test": true
+}

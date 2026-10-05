@@ -1,0 +1,3053 @@
+{
+  "schema_version": 1,
+  "submission": "02599_LuuQuangKhai",
+  "hash": "SHA256",
+  "manifest_excludes_itself": true,
+  "files": [
+    {
+      "path": "code/audit_submission.py",
+      "bytes": 4693,
+      "sha256": "9398d39f0839ec483f14407293ba38c7cd85c3d2f4e7a99e887d8d58917cf710"
+    },
+    {
+      "path": "code/benchmark.py",
+      "bytes": 3156,
+      "sha256": "f43f2d35794d930f56fafb0e4a58fa1e7b81a88f6220b69b3f1bebe110649b4e"
+    },
+    {
+      "path": "code/build_results.mjs",
+      "bytes": 9094,
+      "sha256": "23000106099bf1d021ecb6cf7c9c418aa952115c4f253fc276d5e1f33632206b"
+    },
+    {
+      "path": "code/dataset.py",
+      "bytes": 5785,
+      "sha256": "ed9a77345ac3c10fb0976e769edb4b639773a02889fb4911008a6e8e274ae812"
+    },
+    {
+      "path": "code/eval.py",
+      "bytes": 25704,
+      "sha256": "1210f3c7ca1cb9b4488383f1ceeaa139bfdf5c683694b300f6c55b6b9cdde28e"
+    },
+    {
+      "path": "code/inference.py",
+      "bytes": 2965,
+      "sha256": "06c8e94230b2d45d307b6cf0b915d0effb3e8fec7689c77587c41b5efc26c7b4"
+    },
+    {
+      "path": "code/kaggle_stage1.ipynb",
+      "bytes": 4723,
+      "sha256": "2a108fa77985e6e7fc35f96de3a50b2aca8399e4ac1ee08e29c7ff6b22b15587"
+    },
+    {
+      "path": "code/kaggle_stage2.ipynb",
+      "bytes": 4745971,
+      "sha256": "92a71248ac0642fc5c63dbb45d5a9a32239bb8412d37d8da8c617bd9c66817ed"
+    },
+    {
+      "path": "code/kaggle_stage3.ipynb",
+      "bytes": 542490,
+      "sha256": "32ab70fcf5945ac4a53674ee16e3069b6990509cf74ad82acf587f91c5c64910"
+    },
+    {
+      "path": "code/kaggle_stage4.ipynb",
+      "bytes": 503170,
+      "sha256": "11898b6c3b71336b3e8059cdde7638c8897db97870586c626e558065ab2cea12"
+    },
+    {
+      "path": "code/kaggle_stage5.ipynb",
+      "bytes": 872344,
+      "sha256": "fbc7684ab58cddade9667be979b052eadeabc3827d1a54b630fab571306ffba0"
+    },
+    {
+      "path": "code/kaggle_stage6.ipynb",
+      "bytes": 446795,
+      "sha256": "ec94d4816bd2eecb8abd6fe330e6402371e97d8bc6e7a1e6ba44f7585c29ee12"
+    },
+    {
+      "path": "code/losses.py",
+      "bytes": 2763,
+      "sha256": "38fb990608065cd860dcedff0be5bcea53cd7429f0f9ad7572b611516676e497"
+    },
+    {
+      "path": "code/model.py",
+      "bytes": 2830,
+      "sha256": "8db5bbca5261bf25eca9842a932aa0bbb4d9ff8bd906118718b09b607dc288fc"
+    },
+    {
+      "path": "code/prepare_results.py",
+      "bytes": 12949,
+      "sha256": "ec8292833b68beeba57a40cc77589363ba014232ee849b37874952dfce4bfe9e"
+    },
+    {
+      "path": "code/requirements-kaggle.txt",
+      "bytes": 297,
+      "sha256": "3148c6106950e8118186e139e581117bdd4fb1b0055b990283ec8245c56adf23"
+    },
+    {
+      "path": "code/smoke_checks.py",
+      "bytes": 5628,
+      "sha256": "7b7963f1e26255e22d5034d942b656e89a3e6ac93d0948ac2c09e552d802b68b"
+    },
+    {
+      "path": "code/stage1.py",
+      "bytes": 8281,
+      "sha256": "f1a9bdae86d35820385978c2ee84e11f295d202850370a0eb7fa166980aaf7bd"
+    },
+    {
+      "path": "code/stage3.py",
+      "bytes": 12208,
+      "sha256": "a4a7ef3a398023cfe50a166300a60837f8ec8c8e61d21604c9e63cb1c73d7d19"
+    },
+    {
+      "path": "code/stage4.py",
+      "bytes": 9727,
+      "sha256": "bf0aaa83e1223279fc34e757ab951362a38a9be3f0833b7ccf86dce56e5f7c16"
+    },
+    {
+      "path": "code/stage5.py",
+      "bytes": 9676,
+      "sha256": "afca56d41fba3419f62695ebe2d334cc327437bfe4c21e3bcfd57233eed36184"
+    },
+    {
+      "path": "code/stage6.py",
+      "bytes": 18071,
+      "sha256": "148161cedfb5fabbc5c65f16871e21b5a47b2fcfb1c11d11feab83da587c2797"
+    },
+    {
+      "path": "code/train.py",
+      "bytes": 20049,
+      "sha256": "fb7f4bf09a96ca7400de16faa70815199a6b613a2841123ccfed28cebf6ddf14"
+    },
+    {
+      "path": "confusions/F01_seed0_test.png",
+      "bytes": 95656,
+      "sha256": "ac1496b221821a69a73bf006827b3a91b8a88f2ca50ea1564b14af2c80e4e97e"
+    },
+    {
+      "path": "confusions/F01_seed1_test.png",
+      "bytes": 96239,
+      "sha256": "f8323f512151da9061bf84ec099b69b9ec745e484373ff4b219987840a9742db"
+    },
+    {
+      "path": "confusions/F01_seed2_test.png",
+      "bytes": 96884,
+      "sha256": "e88e785c54bb08bfc47822223b12ae269778121ad9f5e533e2dddf32f354c453"
+    },
+    {
+      "path": "confusions/T00_seed0_test.png",
+      "bytes": 99399,
+      "sha256": "d97906bb689385d852682a0a451f3b8b15e7c1f0123851f0f437858f82ac0d60"
+    },
+    {
+      "path": "confusions/T00_seed1_test.png",
+      "bytes": 99195,
+      "sha256": "4ca150b315733f2d54310fbb2b71df8f1c80d6181eb97ff44ac16a779ba135cb"
+    },
+    {
+      "path": "confusions/T00_seed2_test.png",
+      "bytes": 100030,
+      "sha256": "b06d3d9b1ab831765784561b8c80b350b146b274273bdd116baa529b1a1d9544"
+    },
+    {
+      "path": "curves/B01_resnet50_seed0.png",
+      "bytes": 102147,
+      "sha256": "30b16e56938bf35b3aedb0fef9da9cf35f4840eeabf0d2de497e765744eb2972"
+    },
+    {
+      "path": "curves/B02_convnext_tiny_seed0.png",
+      "bytes": 106327,
+      "sha256": "67137b8c3cb217b815b8c04c377c7ced3af868faa6dd99e6019aaf48bc38c902"
+    },
+    {
+      "path": "curves/B03_deit_small_seed0.png",
+      "bytes": 115439,
+      "sha256": "259e294579395267c224bb631e2b82da21356de0e9e8f911a5b34fb33333a31a"
+    },
+    {
+      "path": "curves/B04_efficientnet_b0_seed0.png",
+      "bytes": 106831,
+      "sha256": "04be0a16383cffb463704fae518c6c35d82913a6fec42c0c72beb4b1d34a6c43"
+    },
+    {
+      "path": "curves/B05_mobilenetv3_seed0.png",
+      "bytes": 111384,
+      "sha256": "5137d3e980946f6a982a9511ebba94850de563ad612ab7e0b0c18d8c7dd0de70"
+    },
+    {
+      "path": "curves/F01_seed0.png",
+      "bytes": 105977,
+      "sha256": "ee6fa5ceb6fba3dff2279ed4c6402b8eed6b11703c2b76d2d848d6000ad6efd4"
+    },
+    {
+      "path": "curves/F01_seed1.png",
+      "bytes": 107537,
+      "sha256": "cfa5fe55415ec657aca126a4c9c0396b2e480798ab3178f0c564c962aeaed934"
+    },
+    {
+      "path": "curves/F01_seed2.png",
+      "bytes": 106665,
+      "sha256": "c758a7903eab430c9d82650f6d9f22c915e3a2eff58b4c83f17e46fd6646fc38"
+    },
+    {
+      "path": "curves/manifest.csv",
+      "bytes": 3401,
+      "sha256": "ecf5382b59eef38ad3480dc3761f3cfed5a5d516a551ea80ffa134a86d9f7639"
+    },
+    {
+      "path": "curves/S00_overfit9.png",
+      "bytes": 33979,
+      "sha256": "938a66fb8a7d6eaad3a379ab9bf79fb72490a86e69497f01f1ef3e884111746a"
+    },
+    {
+      "path": "curves/S01_full_epoch_seed0.png",
+      "bytes": 65963,
+      "sha256": "bba5f2042006c96ebb184b7bd933c8aa60c12eb41b4143dc41378bfc7483c42e"
+    },
+    {
+      "path": "curves/S02_resume_seed0.png",
+      "bytes": 102556,
+      "sha256": "759e5dbd17547f5bddcff14ab346dda6ae4cca49bc8576bbfe429e78e484e1ea"
+    },
+    {
+      "path": "curves/T00_seed0.png",
+      "bytes": 106210,
+      "sha256": "b37875ca87e225638f06a4c7eb40a77700f7705bc44ccd1708f9ccc0ba62216a"
+    },
+    {
+      "path": "curves/T00_seed1.png",
+      "bytes": 108898,
+      "sha256": "1e8176ab579dc0a78339a8e7c5b2670351ee197602054e107d916ec5f9bae615"
+    },
+    {
+      "path": "curves/T00_seed2.png",
+      "bytes": 107477,
+      "sha256": "4eea1e9a42c1844cd7ecfb340035e5f57a2b7d5a322d9006b7938ef5bded0d27"
+    },
+    {
+      "path": "curves/T00_stage4_seed0.png",
+      "bytes": 106210,
+      "sha256": "b37875ca87e225638f06a4c7eb40a77700f7705bc44ccd1708f9ccc0ba62216a"
+    },
+    {
+      "path": "curves/T01_scratch_seed0.png",
+      "bytes": 105085,
+      "sha256": "7b9126d8f75baf03610167a1d243cb9cd26191a411bd416ae79b451078f49f55"
+    },
+    {
+      "path": "curves/T02_frozen_seed0.png",
+      "bytes": 99841,
+      "sha256": "93a9c4ed0843a8852c9f78d8d61579f21e46c259808753c89f09132427d7ae99"
+    },
+    {
+      "path": "curves/T03_randaug_seed0.png",
+      "bytes": 109625,
+      "sha256": "e2a40ddf7dd318a6038f44fb53e6472903ceaddc881a65625cffb2d48171b306"
+    },
+    {
+      "path": "curves/T04_cutmix_seed0.png",
+      "bytes": 110626,
+      "sha256": "0ce06674329d2c75a37978be7933c48dbb93522ce732e3fe95baeccd8397063f"
+    },
+    {
+      "path": "curves/T05_smoothing_seed0.png",
+      "bytes": 108129,
+      "sha256": "6dd50aa84d3d0aefd1a80d77dba0edc5c91ab1b1249670a639ca7837febb0591"
+    },
+    {
+      "path": "curves/T06_focal_seed0.png",
+      "bytes": 109426,
+      "sha256": "eeeef7faf219434730c4ff7b1fbfaf3cb423692f7822c51681d47276a89e5123"
+    },
+    {
+      "path": "curves/T07_combined_seed0.png",
+      "bytes": 107547,
+      "sha256": "58b5ef9b73eb10b85287ba1cc116025d785633d21a34564abe357339a2755201"
+    },
+    {
+      "path": "eda/kaggle/class_counts.csv",
+      "bytes": 368,
+      "sha256": "83f2adb325c6071194b9fcfbb1201a110e47d44f2a883c35caa223c71f69ad33"
+    },
+    {
+      "path": "eda/kaggle/class_distribution.png",
+      "bytes": 69503,
+      "sha256": "4ecf4dbea6e5f344a111e41fb088ff5ed3c5d64ea3a9deb337f6fe495548777f"
+    },
+    {
+      "path": "eda/kaggle/label_discrepancies.csv",
+      "bytes": 72,
+      "sha256": "8cf3d33015a4a0ffa31e84e3d7e913db4d95734592a1fed96004fb3f31526f5c"
+    },
+    {
+      "path": "eda/kaggle/pip-freeze.txt",
+      "bytes": 18034,
+      "sha256": "26182be2895ba7ea7e41ecd2b7fe393d4178cf6db305efb54ab52c446e208cf3"
+    },
+    {
+      "path": "eda/kaggle/sample_manifest.csv",
+      "bytes": 831,
+      "sha256": "271f8ea0cfc35d7d71c904fa32bcc9fb4c8474aaae68453d5ea8058c0d59a22c"
+    },
+    {
+      "path": "eda/kaggle/stage1_summary.json",
+      "bytes": 1336,
+      "sha256": "2dba7405ad843c7f5b2626a5cb0e4e7fc3c9f54ca1253df234c7956bb36710a6"
+    },
+    {
+      "path": "eda/kaggle/train_samples.png",
+      "bytes": 6053523,
+      "sha256": "c79d111255937ac4c9743a42009813c3dfd9591c81ee18b66ae320a09dcc5321"
+    },
+    {
+      "path": "figures/backbone_tradeoff.png",
+      "bytes": 59627,
+      "sha256": "afd8e8592ab235078354ec14d0fb65d81725c1005fee216161c5e8bc62fd0d55"
+    },
+    {
+      "path": "figures/error_sample_manifest.csv",
+      "bytes": 377,
+      "sha256": "deac4fe6582a6c48553c55b7f48d8036d38da872f411eaa3399e7bdce2adba8b"
+    },
+    {
+      "path": "figures/error_samples.png",
+      "bytes": 5394712,
+      "sha256": "848ad657b79db6ba5b0f007845522fcead04bc65509427292e0a9c6562fd043e"
+    },
+    {
+      "path": "figures/F01_seed0_errors.csv",
+      "bytes": 3105,
+      "sha256": "19b46f7853fcf0de37fd4f1c16d43291d1aaeedb18f6ed3c35334a6111136011"
+    },
+    {
+      "path": "figures/inference_tradeoff.png",
+      "bytes": 79959,
+      "sha256": "ea69f0b5e847cdb5319c3fd2eb3b55fc3e0c23362b0057ccbd7e8d86f3f397b6"
+    },
+    {
+      "path": "figures/reliability_seed0.png",
+      "bytes": 78092,
+      "sha256": "e9c9f31a0ef60c2eaa4ddf63b1370f1f08cd6bf1458a5beef9eb2d1e4a7af69f"
+    },
+    {
+      "path": "figures/top_confusions.json",
+      "bytes": 2315,
+      "sha256": "6468353afa57c29e7e8f0dcd0ce5299c667fca9d75d807df9380165a48743bf1"
+    },
+    {
+      "path": "figures/training_ablation.png",
+      "bytes": 61508,
+      "sha256": "d4a45ca38b94cebe6c9aa54d1ed444c53ad41c47000c8b90b6d3d0ee9812a82b"
+    },
+    {
+      "path": "labels/labels.csv",
+      "bytes": 598898,
+      "sha256": "6fb95b89fd9d384f94e185a5cab6c5da7c987649399c90618ecc60acfb0112eb"
+    },
+    {
+      "path": "labels/test_subset0.csv",
+      "bytes": 84183,
+      "sha256": "fb212793b988bc0455aae2e48cb9eb3168014c2f47fbdb93f5f1e284e0974f75"
+    },
+    {
+      "path": "labels/train_subset0.csv",
+      "bytes": 252039,
+      "sha256": "a2e63f561a545837c8cabaa276a957ccf1293ec985c9d8fbc49d67b4fd5abdb2"
+    },
+    {
+      "path": "labels/val_subset0.csv",
+      "bytes": 84039,
+      "sha256": "1fa70a03a68def06c921a1dd7f0b53e96490f6dfad51d7d423bb145161ebc478"
+    },
+    {
+      "path": "official/F01_confusion_sum.csv",
+      "bytes": 482,
+      "sha256": "a18a86f0d766f3effc5b0ffeff4c14ba85a4c5d5e8c0c4741af49ca064227a9c"
+    },
+    {
+      "path": "official/F01_per_class.csv",
+      "bytes": 1295,
+      "sha256": "713e6347a2331793fa06a3fecd3a0dff97f1e939a8f602f1146e5fb532ac2373"
+    },
+    {
+      "path": "official/F01_per_seed.csv",
+      "bytes": 417,
+      "sha256": "f696022f16871f3dbe6716d3c34bfd00c6acc4797d460f94c3f9d44d4dceddff"
+    },
+    {
+      "path": "official/F01_score.txt",
+      "bytes": 1062,
+      "sha256": "c59cc12dc3c47894ed4c4ab8a132ac7b4d75a2e1122a61bf9b119f54b94da716"
+    },
+    {
+      "path": "official/F01_summary.json",
+      "bytes": 2267,
+      "sha256": "12db8db199042330e046e769be7ea239b179b8b1c0353bb44ae5bcd91f792dac"
+    },
+    {
+      "path": "official/F01_uncal_confusion_sum.csv",
+      "bytes": 482,
+      "sha256": "a18a86f0d766f3effc5b0ffeff4c14ba85a4c5d5e8c0c4741af49ca064227a9c"
+    },
+    {
+      "path": "official/F01_uncal_per_class.csv",
+      "bytes": 1295,
+      "sha256": "713e6347a2331793fa06a3fecd3a0dff97f1e939a8f602f1146e5fb532ac2373"
+    },
+    {
+      "path": "official/F01_uncal_per_seed.csv",
+      "bytes": 430,
+      "sha256": "df201c88ae24f6448abb602fd75f7ca59c35534e6d8c565619609d7487399521"
+    },
+    {
+      "path": "official/F01_uncal_score.txt",
+      "bytes": 1074,
+      "sha256": "aeaf9cba14cce25bed13765ed7ef2b4fe74ecbff2d85239ef3beddecbe43f5ac"
+    },
+    {
+      "path": "official/F01_uncal_summary.json",
+      "bytes": 2266,
+      "sha256": "d0febe1b27dea2dcb6b9375c18bb2b5183b1db92fa43f8524a44062d0db12a81"
+    },
+    {
+      "path": "official/grade.txt",
+      "bytes": 863,
+      "sha256": "2b0d1e1bbcbac064ea9fcbb24fe888cf63463ca937ea921b1175cc82bc2bdf5b"
+    },
+    {
+      "path": "official/grade_I.json",
+      "bytes": 1135,
+      "sha256": "48b7eb37bf302b4a70cba3e1a808b27646cc389561f4df70301cceb3f592d83b"
+    },
+    {
+      "path": "official/latency_grade_input.json",
+      "bytes": 185,
+      "sha256": "4f882a93dd845d22bdc9e7e6a3fb2d5bb05f76ce9a40038b3734a54ae4511192"
+    },
+    {
+      "path": "official/T00_confusion_sum.csv",
+      "bytes": 485,
+      "sha256": "cb12b719ce9ae6520856699b467c396dc6cf9264c30b3eaba90ffa7caa2d937e"
+    },
+    {
+      "path": "official/T00_per_class.csv",
+      "bytes": 1278,
+      "sha256": "bc9dce510c000599fdedf6450f2c0d76a6b504994b134599461722d691671031"
+    },
+    {
+      "path": "official/T00_per_seed.csv",
+      "bytes": 417,
+      "sha256": "1a3c13ae1f1e1e9608e4a08d6e96d3ef969942d3d2111678694b14cfc86c9743"
+    },
+    {
+      "path": "official/T00_score.txt",
+      "bytes": 1062,
+      "sha256": "dbbbbd0ae9d03899adaaa747474ba0d4f996b6c82697cdb6fa863dc02a86c5e3"
+    },
+    {
+      "path": "official/T00_summary.json",
+      "bytes": 2252,
+      "sha256": "a0159ed6e17859c45352cffcb1705154574093b7f1d2cef806a1fb3071796398"
+    },
+    {
+      "path": "predictions/B01_resnet50_seed0_val.csv",
+      "bytes": 499834,
+      "sha256": "1f889052ea2d0372365db780046ac9da55eaa58d1b528d4fdf22706d41f3bb34"
+    },
+    {
+      "path": "predictions/B02_convnext_tiny_seed0_val.csv",
+      "bytes": 514172,
+      "sha256": "45cd4b66de7b4baacb9ef6b8498f47d83a9c119d3f01ea9d384db08a05a42f45"
+    },
+    {
+      "path": "predictions/B03_deit_small_seed0_val.csv",
+      "bytes": 514254,
+      "sha256": "52dfdef3b6b516447d1abdad1d5eb0fa6b5e94fa4f8c22b05195f5b08ca89a52"
+    },
+    {
+      "path": "predictions/B04_efficientnet_b0_seed0_val.csv",
+      "bytes": 509872,
+      "sha256": "d372a818bee9d86b6e1badf6f2f3f94e51083603a4c3d847814dc24aa16bf6d8"
+    },
+    {
+      "path": "predictions/B05_mobilenetv3_seed0_val.csv",
+      "bytes": 505223,
+      "sha256": "6ba4445b7dfa129ac08c59abf435b3e213d0b702b572a843665776b59a70004b"
+    },
+    {
+      "path": "predictions/F01_seed0_test.csv",
+      "bytes": 511037,
+      "sha256": "181c53c0e2d4538d4c316863ec6d470235e94578f84408d0a6677f3c326cd223"
+    },
+    {
+      "path": "predictions/F01_seed0_val.csv",
+      "bytes": 510368,
+      "sha256": "7558bad9e8bb47712462eeb1b7c92f564041f0dbae6302443c3f71f546729baf"
+    },
+    {
+      "path": "predictions/F01_seed1_test.csv",
+      "bytes": 509599,
+      "sha256": "9432f78257c928f485ffa6dad20f87d65f2e318795c2c2fa70c8d2170bedbfbd"
+    },
+    {
+      "path": "predictions/F01_seed1_val.csv",
+      "bytes": 508367,
+      "sha256": "9973f720e1ba0c7b93efa0deb3dbd269eb436d8981a6be7500274a7496e849a8"
+    },
+    {
+      "path": "predictions/F01_seed2_test.csv",
+      "bytes": 511264,
+      "sha256": "205981dbe790e182f0fa8e4744de0a80702e8e7a6142b3de24fd80745f5930b3"
+    },
+    {
+      "path": "predictions/F01_seed2_val.csv",
+      "bytes": 510458,
+      "sha256": "463528f6c424b309884e927c2ab2ad7ad2e23bb9ebe7b7f6926e3e789bc52b6c"
+    },
+    {
+      "path": "predictions/F01_uncal_seed0_test.csv",
+      "bytes": 470923,
+      "sha256": "988dc91d744ed542eb6c45f444e9b1736cfdb9261eb3aaeff86bae11324a2077"
+    },
+    {
+      "path": "predictions/F01_uncal_seed0_val.csv",
+      "bytes": 470506,
+      "sha256": "9d4e0c4c7aec100c4561bcbbae2f4ac746ff26e14f3fb898d8a7f9182bc427f3"
+    },
+    {
+      "path": "predictions/F01_uncal_seed1_test.csv",
+      "bytes": 470731,
+      "sha256": "e59141ac30ea44d643205a6fd42cb220659ab8c25928ca11a8f811dd81f604a0"
+    },
+    {
+      "path": "predictions/F01_uncal_seed1_val.csv",
+      "bytes": 469622,
+      "sha256": "565d1f130d562ca3f0b63a0ea6dfbe7d6a71975a44a123eb376a095508a03185"
+    },
+    {
+      "path": "predictions/F01_uncal_seed2_test.csv",
+      "bytes": 471334,
+      "sha256": "bd4da4419847cb15865f59113f0a61dafd132c8d23c84d1a1a4ae24c9d562b9c"
+    },
+    {
+      "path": "predictions/F01_uncal_seed2_val.csv",
+      "bytes": 470422,
+      "sha256": "a0036da225b5ed2f4581c4306631a562a6b751eacf3197a15dad630207c4826d"
+    },
+    {
+      "path": "predictions/T00_I00_seed0_val.csv",
+      "bytes": 514133,
+      "sha256": "20c094ca60fede559408533a9ae87d2cb824c3499ee10d15c5830ee23b41098e"
+    },
+    {
+      "path": "predictions/T00_I01_hflip_seed0_val.csv",
+      "bytes": 513851,
+      "sha256": "6819676e734cb79deb4846d8ce755df1ecd0b7329701cfaae9640448ece053e3"
+    },
+    {
+      "path": "predictions/T00_I02_5crop_prob_seed0_val.csv",
+      "bytes": 513555,
+      "sha256": "50216ce3afeac7ce211d14cc421fbdcafb6ba9b21c85b2a908f88ccc51ad3041"
+    },
+    {
+      "path": "predictions/T00_I03_5crop_logit_seed0_val.csv",
+      "bytes": 514017,
+      "sha256": "c5b943df8bbb5544e20dc3e077ea300b8bcbd9cff5f626d5de4f0077a2c45205"
+    },
+    {
+      "path": "predictions/T00_I04_res256_seed0_val.csv",
+      "bytes": 514998,
+      "sha256": "ce41d65c8b8987d94212a3257da78ed2881992352757d374113cf39d00adae41"
+    },
+    {
+      "path": "predictions/T00_I04_res288_seed0_val.csv",
+      "bytes": 514971,
+      "sha256": "5db8af7f414da916335b72f2f4ca721b079123078bf482f31187271cc6015022"
+    },
+    {
+      "path": "predictions/T00_I07_temperature_seed0_val.csv",
+      "bytes": 512794,
+      "sha256": "8363075af7e66574bf57de2a98688cf8857720f751591cea41bb2d41e6336ad4"
+    },
+    {
+      "path": "predictions/T00_I08_amp_seed0_val.csv",
+      "bytes": 514117,
+      "sha256": "6476d837b954f2827878e89a6bda86e6d58ef6ec08216bc5a964776ff3cc2a56"
+    },
+    {
+      "path": "predictions/T00_seed0_test.csv",
+      "bytes": 514845,
+      "sha256": "83a8a5887a1759ddb1e778dcfdc1a6a360001d34934cd54170a622449a83366b"
+    },
+    {
+      "path": "predictions/T00_seed0_val.csv",
+      "bytes": 514013,
+      "sha256": "9062decfc5e8598e96dfd52daa4070a57700c3d214c9dfe9ad9ed7281ad39f39"
+    },
+    {
+      "path": "predictions/T00_seed1_test.csv",
+      "bytes": 515626,
+      "sha256": "f5f5ee506115df3c623992df96e0d2f926bb71ab51fb85e721c636537a5b5354"
+    },
+    {
+      "path": "predictions/T00_seed1_val.csv",
+      "bytes": 514680,
+      "sha256": "5f3ab3a0144b951ff1761c4aabf0e1dea7682d1f2c4527a1e6953c136ef31c66"
+    },
+    {
+      "path": "predictions/T00_seed2_test.csv",
+      "bytes": 514666,
+      "sha256": "3721a43793150e587624b8542d7217b838cecd13bddc7b4d067b1e1dde776e53"
+    },
+    {
+      "path": "predictions/T00_seed2_val.csv",
+      "bytes": 513729,
+      "sha256": "12feb8807d2ad356f0a3ee945dd30e284e598a42ce9d481ed6a45ff94510753e"
+    },
+    {
+      "path": "predictions/T01_scratch_seed0_val.csv",
+      "bytes": 470541,
+      "sha256": "091312e12ff3a3ee88063bd08d1effc077cf6c5cf08046c54549fe65f71d83cb"
+    },
+    {
+      "path": "predictions/T02_frozen_seed0_val.csv",
+      "bytes": 483128,
+      "sha256": "d372dac5684fce434d792fcd606e500921740b79fc64bbe3f02937c8bde268b4"
+    },
+    {
+      "path": "predictions/T03_randaug_seed0_val.csv",
+      "bytes": 513539,
+      "sha256": "083eddb873a91ad0fcc0e6d513ea6acace4e6c4e8d7f119e5fc9e1e9f2996f61"
+    },
+    {
+      "path": "predictions/T04_cutmix_seed0_val.csv",
+      "bytes": 501657,
+      "sha256": "dea854e4544429b2b1ee4c2f893cb8fb0c1c814441f92e765172b695c8b13385"
+    },
+    {
+      "path": "predictions/T05_smoothing_I00_seed0_val.csv",
+      "bytes": 471706,
+      "sha256": "c7fe8e8fc91cabb91d03d64312eae2418f75b508b320ccfd32b3c77dce64f76b"
+    },
+    {
+      "path": "predictions/T05_smoothing_I01_hflip_seed0_val.csv",
+      "bytes": 471539,
+      "sha256": "50c0c87cb0f26fd2dba85857a799158580e69e68206f770dc109d0db1097c46c"
+    },
+    {
+      "path": "predictions/T05_smoothing_I02_5crop_prob_seed0_val.csv",
+      "bytes": 471223,
+      "sha256": "0227f6cf532ff3ae2555d57173f9b60255037042da949393a164a01869f6a707"
+    },
+    {
+      "path": "predictions/T05_smoothing_I03_5crop_logit_seed0_val.csv",
+      "bytes": 471407,
+      "sha256": "7282ff5c6a67e28749a3e1026367485569aa274e0c241b18b3534b3420e2cec9"
+    },
+    {
+      "path": "predictions/T05_smoothing_I04_res256_seed0_val.csv",
+      "bytes": 471237,
+      "sha256": "ceb297cf6fe93ace521d7412cd3644a254ca6dbdd2e1031ba8f15a155df456d8"
+    },
+    {
+      "path": "predictions/T05_smoothing_I04_res288_seed0_val.csv",
+      "bytes": 470435,
+      "sha256": "53e3ebe8b1f6f7950d16676446e7003c1de37b445f634851012308d35b687313"
+    },
+    {
+      "path": "predictions/T05_smoothing_I07_temperature_seed0_val.csv",
+      "bytes": 509344,
+      "sha256": "e6029ac32d266d17091dd9dc51d90094c3a7dcd6f0e1a10dca2310a9eea2111a"
+    },
+    {
+      "path": "predictions/T05_smoothing_I08_amp_seed0_val.csv",
+      "bytes": 471615,
+      "sha256": "a65598317044aea6bcd06f019676269c03595aefb992f96b5849b8e5253cabe0"
+    },
+    {
+      "path": "predictions/T05_smoothing_seed0_val.csv",
+      "bytes": 471728,
+      "sha256": "69fecc06573860f95884b8f83dfe965d04dbd1bf86b2ba0283e37c473d59c082"
+    },
+    {
+      "path": "predictions/T06_focal_seed0_val.csv",
+      "bytes": 497586,
+      "sha256": "06ae0e21c11af04d20852b57118870d6ac6bc0a4fef59069ead1d09eba29b54b"
+    },
+    {
+      "path": "predictions/T07_combined_seed0_val.csv",
+      "bytes": 471728,
+      "sha256": "69fecc06573860f95884b8f83dfe965d04dbd1bf86b2ba0283e37c473d59c082"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7382,
+      "sha256": "eadf3d30196e3dfada3ef6a527cded1de2d49d573956672e6cb61c65ab4dd34c"
+    },
+    {
+      "path": "report.md",
+      "bytes": 19670,
+      "sha256": "59b601ce31b6429aea063112d307f02bdc1dd5af3119101e7343e3119e286ca9"
+    },
+    {
+      "path": "results.xlsx",
+      "bytes": 25406,
+      "sha256": "dc7cac073daaeecc6247e02d29c1c0c4d21936eac9d730f2b66c3b7ef7fd0ff4"
+    },
+    {
+      "path": "STAGE2.md",
+      "bytes": 9390,
+      "sha256": "413394f42d95b9fb44f58e2b637efff22268b4bbef92aea87d12b57ab103b629"
+    },
+    {
+      "path": "stage2_manifest.json",
+      "bytes": 1569,
+      "sha256": "12e6d300e4e2d3712b17c957174c8d6988904b5a6f008c5fe6e1f1fc87e71305"
+    },
+    {
+      "path": "STAGE3.md",
+      "bytes": 6441,
+      "sha256": "8c3d9e4e682086f9f279aabd3c0fc386b36e6ecbc5a914f5c1613c76ade3c301"
+    },
+    {
+      "path": "stage3_manifest.json",
+      "bytes": 1669,
+      "sha256": "da86980ed12b0d4fd68b9cdfe56303ee187f18d246adb22906fe2e9c64b53a5a"
+    },
+    {
+      "path": "STAGE4.md",
+      "bytes": 7767,
+      "sha256": "9f6680fdc3a082037b7ecd8543b55ae4ef050ead208f85d1e382a9eb2d7c73e9"
+    },
+    {
+      "path": "stage4_manifest.json",
+      "bytes": 2090,
+      "sha256": "873355e39de166ffbdee8bd00edafc2a13a9394439c372a44dbf7e8ffc991467"
+    },
+    {
+      "path": "STAGE5.md",
+      "bytes": 5124,
+      "sha256": "2d1c167b70f2778295122a7b950359d27d6a413b33bc4648c667a0223f0e3017"
+    },
+    {
+      "path": "stage5_manifest.json",
+      "bytes": 2232,
+      "sha256": "7cc3b9ec773960715cb14c38812827e3ec38499024516ca98ea8efb2a97ef97c"
+    },
+    {
+      "path": "STAGE6.md",
+      "bytes": 5870,
+      "sha256": "aee50d325fd30ed62700074c168796f29adf28ad5048116503c2e5a959291e5c"
+    },
+    {
+      "path": "stage6_manifest.json",
+      "bytes": 2364,
+      "sha256": "61b1383fbc3d20f00bd4c9af9d05112b56efda81b01d52f2cabd3ba47f0d444b"
+    },
+    {
+      "path": "stage6_selection.json",
+      "bytes": 556,
+      "sha256": "c1d3faccc807a431ed0bd45d21d3c0963dfc1156607b6d4ce488a5633717e88a"
+    },
+    {
+      "path": "STAGE7.md",
+      "bytes": 2310,
+      "sha256": "3e3c43d14e8592c88e6fa18e4e1fd02703ce983a8f1d6a4a378e408a1a67e0f5"
+    },
+    {
+      "path": "tests/test_pipeline.py",
+      "bytes": 9472,
+      "sha256": "c3ff883251cdff840827182d3bd29cf0982121f0b507c5972abd92aaa88957b7"
+    },
+    {
+      "path": "tests/test_stage3.py",
+      "bytes": 7600,
+      "sha256": "47da092ba9fbfaf15e857042efd60beaeef6bd12430d94e09eae7bee47576a72"
+    },
+    {
+      "path": "tests/test_stage4.py",
+      "bytes": 2889,
+      "sha256": "4a3d4786c67096ae27b05ba55a356a451eca809e1d164de956f7c0d00e5caf97"
+    },
+    {
+      "path": "tests/test_stage5.py",
+      "bytes": 2881,
+      "sha256": "4aec482bb14d40686079df8a4de05fa075e26d3bf9bd2cd2cc2b66fdbedc4cf5"
+    },
+    {
+      "path": "tests/test_stage6.py",
+      "bytes": 7542,
+      "sha256": "cc48570b14c68dcf62ef93e14eaaa304887f35099453fa9cd2d0f70be738ee8e"
+    },
+    {
+      "path": "validation/stage2_kaggle/code/benchmark.py",
+      "bytes": 2465,
+      "sha256": "526a58dcca9ac6a493ee1c8e6655d9d0d72c7c7ffc29dfc7e517241dd6cddbfb"
+    },
+    {
+      "path": "validation/stage2_kaggle/code/dataset.py",
+      "bytes": 5785,
+      "sha256": "ed9a77345ac3c10fb0976e769edb4b639773a02889fb4911008a6e8e274ae812"
+    },
+    {
+      "path": "validation/stage2_kaggle/code/eval.py",
+      "bytes": 25704,
+      "sha256": "1210f3c7ca1cb9b4488383f1ceeaa139bfdf5c683694b300f6c55b6b9cdde28e"
+    },
+    {
+      "path": "validation/stage2_kaggle/code/inference.py",
+      "bytes": 4281,
+      "sha256": "af39ac6d65e7baf125eacfc7233e57e2c396659999f2e51d45df674d15e2f5d7"
+    },
+    {
+      "path": "validation/stage2_kaggle/code/losses.py",
+      "bytes": 2763,
+      "sha256": "38fb990608065cd860dcedff0be5bcea53cd7429f0f9ad7572b611516676e497"
+    },
+    {
+      "path": "validation/stage2_kaggle/code/model.py",
+      "bytes": 2830,
+      "sha256": "8db5bbca5261bf25eca9842a932aa0bbb4d9ff8bd906118718b09b607dc288fc"
+    },
+    {
+      "path": "validation/stage2_kaggle/code/smoke_checks.py",
+      "bytes": 5628,
+      "sha256": "7b7963f1e26255e22d5034d942b656e89a3e6ac93d0948ac2c09e552d802b68b"
+    },
+    {
+      "path": "validation/stage2_kaggle/code/stage1.py",
+      "bytes": 8281,
+      "sha256": "f1a9bdae86d35820385978c2ee84e11f295d202850370a0eb7fa166980aaf7bd"
+    },
+    {
+      "path": "validation/stage2_kaggle/code/train.py",
+      "bytes": 20049,
+      "sha256": "fb7f4bf09a96ca7400de16faa70815199a6b613a2841123ccfed28cebf6ddf14"
+    },
+    {
+      "path": "validation/stage2_kaggle/pip-freeze.txt",
+      "bytes": 18034,
+      "sha256": "aa84e5d9894aa46004e9ff3beecaa61060afd1d4c2ebed1a7bc6208a6efa3c3f"
+    },
+    {
+      "path": "validation/stage2_kaggle/pipeline_tests.txt",
+      "bytes": 2571,
+      "sha256": "1c99d26f7908c1ffd028dc6f7cb8889f21b6e9426438c1fad0bb6a22aff850bf"
+    },
+    {
+      "path": "validation/stage2_kaggle/predictions/S01_full_epoch_seed0_val.csv",
+      "bytes": 475217,
+      "sha256": "75d88aa4eac87d01b25e50386ca5f96bac96c632adbba961f286acbeb8e5fc25"
+    },
+    {
+      "path": "validation/stage2_kaggle/predictions/S02_resume_seed0_val.csv",
+      "bytes": 1169,
+      "sha256": "5f50566bd5d17dbbc908a66375d3be7a21bee8631fb916429ce805e6893cdb61"
+    },
+    {
+      "path": "validation/stage2_kaggle/runs/S01_full_epoch/seed0/config.json",
+      "bytes": 1113,
+      "sha256": "ac6ae874f4dc0f935e6884b80cc4f95ba792ef8fe1e06292df9345d56e4eba72"
+    },
+    {
+      "path": "validation/stage2_kaggle/runs/S01_full_epoch/seed0/curves.png",
+      "bytes": 65963,
+      "sha256": "bba5f2042006c96ebb184b7bd933c8aa60c12eb41b4143dc41378bfc7483c42e"
+    },
+    {
+      "path": "validation/stage2_kaggle/runs/S01_full_epoch/seed0/environment.json",
+      "bytes": 133,
+      "sha256": "e7a41e3500fe14039a83abb7cb20cc6eb1c23c3d2b08793e53202be8a86a66d3"
+    },
+    {
+      "path": "validation/stage2_kaggle/runs/S01_full_epoch/seed0/history.csv",
+      "bytes": 261,
+      "sha256": "9d364be869262b7c45d4ea8c42bcb0dec7820e5921dd41e1e6c01d6421d3129a"
+    },
+    {
+      "path": "validation/stage2_kaggle/runs/S01_full_epoch/seed0/preprocessing.json",
+      "bytes": 997,
+      "sha256": "8f1241bd4f7388cd3918234cdb03e430376bfab191fb4ba2d49d6dd91797f179"
+    },
+    {
+      "path": "validation/stage2_kaggle/runs/S01_full_epoch/seed0/split_check.json",
+      "bytes": 744,
+      "sha256": "5d005552ee81098177e32cd98bf469f28a08e434c41921991019434f812b8e2f"
+    },
+    {
+      "path": "validation/stage2_kaggle/runs/S01_full_epoch/seed0/summary.json",
+      "bytes": 580,
+      "sha256": "9b22cb407b603f7ea763ca409ea98f79c690d410f288040c7ff56e5761ed56a1"
+    },
+    {
+      "path": "validation/stage2_kaggle/runs/S01_full_epoch/seed0/val_logits.npz",
+      "bytes": 146107,
+      "sha256": "cc07c9d1a0b0afc9efdb4f97c74cd75017bd9f8f600e6ff57889044f2712a1b3"
+    },
+    {
+      "path": "validation/stage2_kaggle/runs/S02_resume/seed0/config.json",
+      "bytes": 1100,
+      "sha256": "def580d5e3a0953ac7bb4563941c644e7f9fd1b2915dd7a6eb378fbac1af46cc"
+    },
+    {
+      "path": "validation/stage2_kaggle/runs/S02_resume/seed0/curves.png",
+      "bytes": 102556,
+      "sha256": "759e5dbd17547f5bddcff14ab346dda6ae4cca49bc8576bbfe429e78e484e1ea"
+    },
+    {
+      "path": "validation/stage2_kaggle/runs/S02_resume/seed0/environment.json",
+      "bytes": 133,
+      "sha256": "e7a41e3500fe14039a83abb7cb20cc6eb1c23c3d2b08793e53202be8a86a66d3"
+    },
+    {
+      "path": "validation/stage2_kaggle/runs/S02_resume/seed0/history.csv",
+      "bytes": 379,
+      "sha256": "09ce33a8f034858f458cf5e009683732ad1de95fbaf553357d84a45fdc0117cf"
+    },
+    {
+      "path": "validation/stage2_kaggle/runs/S02_resume/seed0/preprocessing.json",
+      "bytes": 995,
+      "sha256": "633ca64de0b2e9cb55fba680b4726e1d8ccc3fc57266635563ffb07fd6da92ca"
+    },
+    {
+      "path": "validation/stage2_kaggle/runs/S02_resume/seed0/split_check.json",
+      "bytes": 744,
+      "sha256": "5d005552ee81098177e32cd98bf469f28a08e434c41921991019434f812b8e2f"
+    },
+    {
+      "path": "validation/stage2_kaggle/runs/S02_resume/seed0/summary.json",
+      "bytes": 571,
+      "sha256": "f3211446bb302bd57c80021ba389f31975079cd6101b99d2cb9676e0ea6a7b1b"
+    },
+    {
+      "path": "validation/stage2_kaggle/runs/S02_resume/seed0/val_logits.npz",
+      "bytes": 1094,
+      "sha256": "dc99a06d420a138c71323ff3e6712d1b391e755ab33f7e24a59d562d9ff67e77"
+    },
+    {
+      "path": "validation/stage2_kaggle/smoke/augmentation_check.png",
+      "bytes": 3212954,
+      "sha256": "b55ee167ea4afa4cf5fcb1cd66b2a74247a19b596133cf17531a93088a5f6d62"
+    },
+    {
+      "path": "validation/stage2_kaggle/smoke/overfit_batch.csv",
+      "bytes": 291,
+      "sha256": "5dd5e12d91f47fb056dc58f33f7dca72cee2f1302dcbd9ad37734f6e2d7df486"
+    },
+    {
+      "path": "validation/stage2_kaggle/smoke/overfit_curve.png",
+      "bytes": 33979,
+      "sha256": "938a66fb8a7d6eaad3a379ab9bf79fb72490a86e69497f01f1ef3e884111746a"
+    },
+    {
+      "path": "validation/stage2_kaggle/smoke/overfit_history.csv",
+      "bytes": 328,
+      "sha256": "fa4ef27ed3d4329297f956af111a0ceb5585a042ca71ccc78fca08686166d4aa"
+    },
+    {
+      "path": "validation/stage2_kaggle/smoke/smoke_summary.json",
+      "bytes": 434,
+      "sha256": "a85d93b9eb162f1ad1787e02c557835c94fc76f8e8fabc0b3a32b1a305e93811"
+    },
+    {
+      "path": "validation/stage2_kaggle/stage2_manifest.json",
+      "bytes": 1551,
+      "sha256": "7487ee9096ec9d64327d276dbab01d11ce6d3c3476323914977314982d4a178d"
+    },
+    {
+      "path": "validation/stage2_kaggle/verification.json",
+      "bytes": 689,
+      "sha256": "72db2c0553da0d4a84e249b23a524d0f1913421d5a45b9a0210035504743a61a"
+    },
+    {
+      "path": "validation/stage3_kaggle/backbone_tradeoff.png",
+      "bytes": 59627,
+      "sha256": "afd8e8592ab235078354ec14d0fb65d81725c1005fee216161c5e8bc62fd0d55"
+    },
+    {
+      "path": "validation/stage3_kaggle/backbones.csv",
+      "bytes": 1686,
+      "sha256": "ed338a8fa07e0a1808de4f9830313964a6ce1ce08116763c1b018422b18aa9da"
+    },
+    {
+      "path": "validation/stage3_kaggle/backbones_ranked.csv",
+      "bytes": 1686,
+      "sha256": "c62c29f4e8733e03c314d5df80437b414fa4ea8b68ed066de38a30a0b96bb15d"
+    },
+    {
+      "path": "validation/stage3_kaggle/code/benchmark.py",
+      "bytes": 2302,
+      "sha256": "32be5f02d34cbdbeeadd4b9993fef1b773e240bb3b68dadf2bdd119fcdbfec9d"
+    },
+    {
+      "path": "validation/stage3_kaggle/code/dataset.py",
+      "bytes": 5785,
+      "sha256": "ed9a77345ac3c10fb0976e769edb4b639773a02889fb4911008a6e8e274ae812"
+    },
+    {
+      "path": "validation/stage3_kaggle/code/eval.py",
+      "bytes": 25704,
+      "sha256": "1210f3c7ca1cb9b4488383f1ceeaa139bfdf5c683694b300f6c55b6b9cdde28e"
+    },
+    {
+      "path": "validation/stage3_kaggle/code/inference.py",
+      "bytes": 4281,
+      "sha256": "af39ac6d65e7baf125eacfc7233e57e2c396659999f2e51d45df674d15e2f5d7"
+    },
+    {
+      "path": "validation/stage3_kaggle/code/losses.py",
+      "bytes": 2763,
+      "sha256": "38fb990608065cd860dcedff0be5bcea53cd7429f0f9ad7572b611516676e497"
+    },
+    {
+      "path": "validation/stage3_kaggle/code/model.py",
+      "bytes": 2830,
+      "sha256": "8db5bbca5261bf25eca9842a932aa0bbb4d9ff8bd906118718b09b607dc288fc"
+    },
+    {
+      "path": "validation/stage3_kaggle/code/smoke_checks.py",
+      "bytes": 5628,
+      "sha256": "7b7963f1e26255e22d5034d942b656e89a3e6ac93d0948ac2c09e552d802b68b"
+    },
+    {
+      "path": "validation/stage3_kaggle/code/stage1.py",
+      "bytes": 8281,
+      "sha256": "f1a9bdae86d35820385978c2ee84e11f295d202850370a0eb7fa166980aaf7bd"
+    },
+    {
+      "path": "validation/stage3_kaggle/code/stage3.py",
+      "bytes": 12208,
+      "sha256": "a4a7ef3a398023cfe50a166300a60837f8ec8c8e61d21604c9e63cb1c73d7d19"
+    },
+    {
+      "path": "validation/stage3_kaggle/code/train.py",
+      "bytes": 20049,
+      "sha256": "fb7f4bf09a96ca7400de16faa70815199a6b613a2841123ccfed28cebf6ddf14"
+    },
+    {
+      "path": "validation/stage3_kaggle/pip-freeze.txt",
+      "bytes": 18034,
+      "sha256": "aa84e5d9894aa46004e9ff3beecaa61060afd1d4c2ebed1a7bc6208a6efa3c3f"
+    },
+    {
+      "path": "validation/stage3_kaggle/predictions/B01_resnet50_seed0_val.csv",
+      "bytes": 499834,
+      "sha256": "1f889052ea2d0372365db780046ac9da55eaa58d1b528d4fdf22706d41f3bb34"
+    },
+    {
+      "path": "validation/stage3_kaggle/predictions/B02_convnext_tiny_seed0_val.csv",
+      "bytes": 514172,
+      "sha256": "45cd4b66de7b4baacb9ef6b8498f47d83a9c119d3f01ea9d384db08a05a42f45"
+    },
+    {
+      "path": "validation/stage3_kaggle/predictions/B03_deit_small_seed0_val.csv",
+      "bytes": 514254,
+      "sha256": "52dfdef3b6b516447d1abdad1d5eb0fa6b5e94fa4f8c22b05195f5b08ca89a52"
+    },
+    {
+      "path": "validation/stage3_kaggle/predictions/B04_efficientnet_b0_seed0_val.csv",
+      "bytes": 509872,
+      "sha256": "d372a818bee9d86b6e1badf6f2f3f94e51083603a4c3d847814dc24aa16bf6d8"
+    },
+    {
+      "path": "validation/stage3_kaggle/predictions/B05_mobilenetv3_seed0_val.csv",
+      "bytes": 505223,
+      "sha256": "6ba4445b7dfa129ac08c59abf435b3e213d0b702b572a843665776b59a70004b"
+    },
+    {
+      "path": "validation/stage3_kaggle/runs/B01_resnet50/seed0/config.json",
+      "bytes": 1110,
+      "sha256": "088df8fe7967d9a0bf8284c2fe0187b7ecc4e678145bd2585ce1f68298410791"
+    },
+    {
+      "path": "validation/stage3_kaggle/runs/B01_resnet50/seed0/curves.png",
+      "bytes": 102147,
+      "sha256": "30b16e56938bf35b3aedb0fef9da9cf35f4840eeabf0d2de497e765744eb2972"
+    },
+    {
+      "path": "validation/stage3_kaggle/runs/B01_resnet50/seed0/environment.json",
+      "bytes": 133,
+      "sha256": "e7a41e3500fe14039a83abb7cb20cc6eb1c23c3d2b08793e53202be8a86a66d3"
+    },
+    {
+      "path": "validation/stage3_kaggle/runs/B01_resnet50/seed0/history.csv",
+      "bytes": 1822,
+      "sha256": "c1e489df32d038200f84812c9a631be81b09c1eca6bf6fdd9e96f9654f1dfb95"
+    },
+    {
+      "path": "validation/stage3_kaggle/runs/B01_resnet50/seed0/preprocessing.json",
+      "bytes": 1149,
+      "sha256": "779c488653de12fb4c69b2f679aedad3770ca617e6ad68d409a54d2b217db6d3"
+    },
+    {
+      "path": "validation/stage3_kaggle/runs/B01_resnet50/seed0/profile.json",
+      "bytes": 3622,
+      "sha256": "f0c81bda7e60d95782f14d486f139042776e30651bc8244b39aef1f20e6c776a"
+    },
+    {
+      "path": "validation/stage3_kaggle/runs/B01_resnet50/seed0/split_check.json",
+      "bytes": 744,
+      "sha256": "5d005552ee81098177e32cd98bf469f28a08e434c41921991019434f812b8e2f"
+    },
+    {
+      "path": "validation/stage3_kaggle/runs/B01_resnet50/seed0/summary.json",
+      "bytes": 581,
+      "sha256": "17990ba11dffae9a3e60b4495f01eaeaeb3d9eede248ff129966fb1c1913f199"
+    },
+    {
+      "path": "validation/stage3_kaggle/runs/B01_resnet50/seed0/val_logits.npz",
+      "bytes": 144161,
+      "sha256": "76de4ffe2cd5d990fa69b0a5e43ddfd52173592721df95c873e4bcaa4651cc4b"
+    },
+    {
+      "path": "validation/stage3_kaggle/runs/B02_convnext_tiny/seed0/config.json",
+      "bytes": 1120,
+      "sha256": "6587f9e15ede13515ac36c21547f777d3b23d352b3ba9227968d35a21e012441"
+    },
+    {
+      "path": "validation/stage3_kaggle/runs/B02_convnext_tiny/seed0/curves.png",
+      "bytes": 106327,
+      "sha256": "67137b8c3cb217b815b8c04c377c7ced3af868faa6dd99e6019aaf48bc38c902"
+    },
+    {
+      "path": "validation/stage3_kaggle/runs/B02_convnext_tiny/seed0/environment.json",
+      "bytes": 133,
+      "sha256": "e7a41e3500fe14039a83abb7cb20cc6eb1c23c3d2b08793e53202be8a86a66d3"
+    },
+    {
+      "path": "validation/stage3_kaggle/runs/B02_convnext_tiny/seed0/history.csv",
+      "bytes": 1831,
+      "sha256": "8d8fca6790de2781c1035025cd3ae1e274ec287156ff87d009640e0ae4c97755"
+    },
+    {
+      "path": "validation/stage3_kaggle/runs/B02_convnext_tiny/seed0/preprocessing.json",
+      "bytes": 1013,
+      "sha256": "493d2b5d314fedfedd701fa41d3de52761a550e80cee6cb149e63876c290ec2b"
+    },
+    {
+      "path": "validation/stage3_kaggle/runs/B02_convnext_tiny/seed0/profile.json",
+      "bytes": 3703,
+      "sha256": "b9b12b234dcc9770684ce03d5b2361027ad96293a07e83ed56e5e1b4609ff930"
+    },
+    {
+      "path": "validation/stage3_kaggle/runs/B02_convnext_tiny/seed0/split_check.json",
+      "bytes": 744,
+      "sha256": "5d005552ee81098177e32cd98bf469f28a08e434c41921991019434f812b8e2f"
+    },
+    {
+      "path": "validation/stage3_kaggle/runs/B02_convnext_tiny/seed0/summary.json",
+      "bytes": 585,
+      "sha256": "1ec38edf4935d72d98dcbfce838df5a353d913f5b8140fa592f4dea29e8581f1"
+    },
+    {
+      "path": "validation/stage3_kaggle/runs/B02_convnext_tiny/seed0/val_logits.npz",
+      "bytes": 144546,
+      "sha256": "8b4b066b193605c0a6d1787a7a9de1405f233efc3a831114443405ea64936deb"
+    },
+    {
+      "path": "validation/stage3_kaggle/runs/B03_deit_small/seed0/config.json",
+      "bytes": 1126,
+      "sha256": "8a68c24c1c9f81ce7d6eab51bd700d45ad4c495c6f59e4791b27f70aa132c4ce"
+    },
+    {
+      "path": "validation/stage3_kaggle/runs/B03_deit_small/seed0/curves.png",
+      "bytes": 115439,
+      "sha256": "259e294579395267c224bb631e2b82da21356de0e9e8f911a5b34fb33333a31a"
+    },
+    {
+      "path": "validation/stage3_kaggle/runs/B03_deit_small/seed0/environment.json",
+      "bytes": 133,
+      "sha256": "e7a41e3500fe14039a83abb7cb20cc6eb1c23c3d2b08793e53202be8a86a66d3"
+    },
+    {
+      "path": "validation/stage3_kaggle/runs/B03_deit_small/seed0/history.csv",
+      "bytes": 1828,
+      "sha256": "efc1066a279a228ca6c02394ac22e0f88df5f3e12736beb78766b5a0f21b589e"
+    },
+    {
+      "path": "validation/stage3_kaggle/runs/B03_deit_small/seed0/preprocessing.json",
+      "bytes": 930,
+      "sha256": "2f3631b0c39c96edde8b6d8a0c110b1fc27fa2e1b118ea8ef8c880a24bc83998"
+    },
+    {
+      "path": "validation/stage3_kaggle/runs/B03_deit_small/seed0/profile.json",
+      "bytes": 3730,
+      "sha256": "af8206c3845bfd5ae2e2f2a0a7f251b8356a9e207c40e01608f8da7a6b809e26"
+    },
+    {
+      "path": "validation/stage3_kaggle/runs/B03_deit_small/seed0/split_check.json",
+      "bytes": 744,
+      "sha256": "5d005552ee81098177e32cd98bf469f28a08e434c41921991019434f812b8e2f"
+    },
+    {
+      "path": "validation/stage3_kaggle/runs/B03_deit_small/seed0/summary.json",
+      "bytes": 583,
+      "sha256": "7b5a2931f5fbd8e6f41ed9a111a161c76ef9fdad0233efc6a390e04999209d74"
+    },
+    {
+      "path": "validation/stage3_kaggle/runs/B03_deit_small/seed0/val_logits.npz",
+      "bytes": 144727,
+      "sha256": "4fedf1aa24799d88d976343ad19adfa2faa513b2d27c15401f557797fb329f6d"
+    },
+    {
+      "path": "validation/stage3_kaggle/runs/B04_efficientnet_b0/seed0/config.json",
+      "bytes": 1124,
+      "sha256": "96f48fa021cf111f647a717815aa5040e14e4efe078841c4470a3c1f03e14049"
+    },
+    {
+      "path": "validation/stage3_kaggle/runs/B04_efficientnet_b0/seed0/curves.png",
+      "bytes": 106831,
+      "sha256": "04be0a16383cffb463704fae518c6c35d82913a6fec42c0c72beb4b1d34a6c43"
+    },
+    {
+      "path": "validation/stage3_kaggle/runs/B04_efficientnet_b0/seed0/environment.json",
+      "bytes": 133,
+      "sha256": "e7a41e3500fe14039a83abb7cb20cc6eb1c23c3d2b08793e53202be8a86a66d3"
+    },
+    {
+      "path": "validation/stage3_kaggle/runs/B04_efficientnet_b0/seed0/history.csv",
+      "bytes": 1833,
+      "sha256": "0057a482b9f8c95aaf623b9a5e9c6c74ef1194eb79616643e47c879fc21bc8b6"
+    },
+    {
+      "path": "validation/stage3_kaggle/runs/B04_efficientnet_b0/seed0/preprocessing.json",
+      "bytes": 979,
+      "sha256": "319be165a517421a97aee0eccfb72cd342a7ca9635e42cb8833c34c7ef120e9b"
+    },
+    {
+      "path": "validation/stage3_kaggle/runs/B04_efficientnet_b0/seed0/profile.json",
+      "bytes": 3599,
+      "sha256": "932a90b48bdf05f8e0950db1714752ff862a141fffa355bc5713feaffefa2202"
+    },
+    {
+      "path": "validation/stage3_kaggle/runs/B04_efficientnet_b0/seed0/split_check.json",
+      "bytes": 744,
+      "sha256": "5d005552ee81098177e32cd98bf469f28a08e434c41921991019434f812b8e2f"
+    },
+    {
+      "path": "validation/stage3_kaggle/runs/B04_efficientnet_b0/seed0/summary.json",
+      "bytes": 587,
+      "sha256": "d286b688b488c8de532e44864f92f87e1637907c3740c2575e21b748483ac396"
+    },
+    {
+      "path": "validation/stage3_kaggle/runs/B04_efficientnet_b0/seed0/val_logits.npz",
+      "bytes": 144632,
+      "sha256": "343391c1f114e4ccb0afce2aac8082bbfa0387a5ed48e190ea52b80c80edd4b0"
+    },
+    {
+      "path": "validation/stage3_kaggle/runs/B05_mobilenetv3/seed0/config.json",
+      "bytes": 1126,
+      "sha256": "e5f675106f0132fcdee5c79970db44e51f40abe70d572fa8a0cc5e1538a84907"
+    },
+    {
+      "path": "validation/stage3_kaggle/runs/B05_mobilenetv3/seed0/curves.png",
+      "bytes": 111384,
+      "sha256": "5137d3e980946f6a982a9511ebba94850de563ad612ab7e0b0c18d8c7dd0de70"
+    },
+    {
+      "path": "validation/stage3_kaggle/runs/B05_mobilenetv3/seed0/environment.json",
+      "bytes": 133,
+      "sha256": "e7a41e3500fe14039a83abb7cb20cc6eb1c23c3d2b08793e53202be8a86a66d3"
+    },
+    {
+      "path": "validation/stage3_kaggle/runs/B05_mobilenetv3/seed0/history.csv",
+      "bytes": 1801,
+      "sha256": "0f0359d057e7bba7dfc6dbac0109dedf9ca0d53139d916f6472be1e85b99dfaa"
+    },
+    {
+      "path": "validation/stage3_kaggle/runs/B05_mobilenetv3/seed0/preprocessing.json",
+      "bytes": 997,
+      "sha256": "8f1241bd4f7388cd3918234cdb03e430376bfab191fb4ba2d49d6dd91797f179"
+    },
+    {
+      "path": "validation/stage3_kaggle/runs/B05_mobilenetv3/seed0/profile.json",
+      "bytes": 3633,
+      "sha256": "5b35243f299782bdabe727c25fb6fa3bbd035330c3e427f9c23f75505e0dc51e"
+    },
+    {
+      "path": "validation/stage3_kaggle/runs/B05_mobilenetv3/seed0/split_check.json",
+      "bytes": 744,
+      "sha256": "5d005552ee81098177e32cd98bf469f28a08e434c41921991019434f812b8e2f"
+    },
+    {
+      "path": "validation/stage3_kaggle/runs/B05_mobilenetv3/seed0/summary.json",
+      "bytes": 583,
+      "sha256": "325bb70fbc6d9bace43b3659e16b2bf4d3ec76482cb64f8ee0ac9bfb606cb891"
+    },
+    {
+      "path": "validation/stage3_kaggle/runs/B05_mobilenetv3/seed0/val_logits.npz",
+      "bytes": 145594,
+      "sha256": "ee53cce6ae23357a36500fdf095ce8c214a681bdf2d5683633f648985fd83158"
+    },
+    {
+      "path": "validation/stage3_kaggle/stage3_manifest.json",
+      "bytes": 1650,
+      "sha256": "c6c076984b2825235f5f6603b185e447b6ee181a6ffbee011c27b94023531904"
+    },
+    {
+      "path": "validation/stage3_kaggle/stage3_summary.json",
+      "bytes": 262,
+      "sha256": "2e92424765869aa0265cac8ef4e6a922364940e8ff286eafe03b31b2a645a52d"
+    },
+    {
+      "path": "validation/stage3_kaggle/suite_config.json",
+      "bytes": 5963,
+      "sha256": "2363c8b5976ec591126f70fa85f26a9a266e2f6a595ee3cdf56c9e5ee759f8b4"
+    },
+    {
+      "path": "validation/stage3_kaggle/suite_identity.json",
+      "bytes": 8345,
+      "sha256": "d2793ee7f368632b077b9c6633619452d6067765ce266807106cadb24c4fe3b7"
+    },
+    {
+      "path": "validation/stage3_kaggle/test_pipeline.py.log",
+      "bytes": 2571,
+      "sha256": "ace33c1318290a2dcfaa9627525ab532f1329dcfe03bbef114e7e2c3b7003237"
+    },
+    {
+      "path": "validation/stage3_kaggle/test_stage3.py.log",
+      "bytes": 2400,
+      "sha256": "d8161c44dc45d34858f63843f58b5b970e999da513263d2361327b75186fccc4"
+    },
+    {
+      "path": "validation/stage3_kaggle/verification.json",
+      "bytes": 1176,
+      "sha256": "d3808c43efdf44f84be55b386c9931cd671844c557c1e9938b5cdc014af0435a"
+    },
+    {
+      "path": "validation/stage4_kaggle/code/benchmark.py",
+      "bytes": 2302,
+      "sha256": "32be5f02d34cbdbeeadd4b9993fef1b773e240bb3b68dadf2bdd119fcdbfec9d"
+    },
+    {
+      "path": "validation/stage4_kaggle/code/dataset.py",
+      "bytes": 5785,
+      "sha256": "ed9a77345ac3c10fb0976e769edb4b639773a02889fb4911008a6e8e274ae812"
+    },
+    {
+      "path": "validation/stage4_kaggle/code/eval.py",
+      "bytes": 25704,
+      "sha256": "1210f3c7ca1cb9b4488383f1ceeaa139bfdf5c683694b300f6c55b6b9cdde28e"
+    },
+    {
+      "path": "validation/stage4_kaggle/code/inference.py",
+      "bytes": 4281,
+      "sha256": "af39ac6d65e7baf125eacfc7233e57e2c396659999f2e51d45df674d15e2f5d7"
+    },
+    {
+      "path": "validation/stage4_kaggle/code/losses.py",
+      "bytes": 2763,
+      "sha256": "38fb990608065cd860dcedff0be5bcea53cd7429f0f9ad7572b611516676e497"
+    },
+    {
+      "path": "validation/stage4_kaggle/code/model.py",
+      "bytes": 2830,
+      "sha256": "8db5bbca5261bf25eca9842a932aa0bbb4d9ff8bd906118718b09b607dc288fc"
+    },
+    {
+      "path": "validation/stage4_kaggle/code/smoke_checks.py",
+      "bytes": 5628,
+      "sha256": "7b7963f1e26255e22d5034d942b656e89a3e6ac93d0948ac2c09e552d802b68b"
+    },
+    {
+      "path": "validation/stage4_kaggle/code/stage1.py",
+      "bytes": 8281,
+      "sha256": "f1a9bdae86d35820385978c2ee84e11f295d202850370a0eb7fa166980aaf7bd"
+    },
+    {
+      "path": "validation/stage4_kaggle/code/stage3.py",
+      "bytes": 12208,
+      "sha256": "a4a7ef3a398023cfe50a166300a60837f8ec8c8e61d21604c9e63cb1c73d7d19"
+    },
+    {
+      "path": "validation/stage4_kaggle/code/stage4.py",
+      "bytes": 9727,
+      "sha256": "bf0aaa83e1223279fc34e757ab951362a38a9be3f0833b7ccf86dce56e5f7c16"
+    },
+    {
+      "path": "validation/stage4_kaggle/code/train.py",
+      "bytes": 20049,
+      "sha256": "fb7f4bf09a96ca7400de16faa70815199a6b613a2841123ccfed28cebf6ddf14"
+    },
+    {
+      "path": "validation/stage4_kaggle/combination_selection.json",
+      "bytes": 2336,
+      "sha256": "533cbe103b4bf21c0c59ffd25a23d177cd57d4e208b0f48d4689fccb7735ed5e"
+    },
+    {
+      "path": "validation/stage4_kaggle/combined_config.json",
+      "bytes": 1104,
+      "sha256": "4d447f538086164c06d9f10cb1bbac780a9f1f557d25e50e42d9b4fa388b9125"
+    },
+    {
+      "path": "validation/stage4_kaggle/curves/T00_seed0.png",
+      "bytes": 106210,
+      "sha256": "b37875ca87e225638f06a4c7eb40a77700f7705bc44ccd1708f9ccc0ba62216a"
+    },
+    {
+      "path": "validation/stage4_kaggle/curves/T01_scratch_seed0.png",
+      "bytes": 105085,
+      "sha256": "7b9126d8f75baf03610167a1d243cb9cd26191a411bd416ae79b451078f49f55"
+    },
+    {
+      "path": "validation/stage4_kaggle/curves/T02_frozen_seed0.png",
+      "bytes": 99841,
+      "sha256": "93a9c4ed0843a8852c9f78d8d61579f21e46c259808753c89f09132427d7ae99"
+    },
+    {
+      "path": "validation/stage4_kaggle/curves/T03_randaug_seed0.png",
+      "bytes": 109625,
+      "sha256": "e2a40ddf7dd318a6038f44fb53e6472903ceaddc881a65625cffb2d48171b306"
+    },
+    {
+      "path": "validation/stage4_kaggle/curves/T04_cutmix_seed0.png",
+      "bytes": 110626,
+      "sha256": "0ce06674329d2c75a37978be7933c48dbb93522ce732e3fe95baeccd8397063f"
+    },
+    {
+      "path": "validation/stage4_kaggle/curves/T05_smoothing_seed0.png",
+      "bytes": 108129,
+      "sha256": "6dd50aa84d3d0aefd1a80d77dba0edc5c91ab1b1249670a639ca7837febb0591"
+    },
+    {
+      "path": "validation/stage4_kaggle/curves/T06_focal_seed0.png",
+      "bytes": 109426,
+      "sha256": "eeeef7faf219434730c4ff7b1fbfaf3cb423692f7822c51681d47276a89e5123"
+    },
+    {
+      "path": "validation/stage4_kaggle/curves/T07_combined_seed0.png",
+      "bytes": 107547,
+      "sha256": "58b5ef9b73eb10b85287ba1cc116025d785633d21a34564abe357339a2755201"
+    },
+    {
+      "path": "validation/stage4_kaggle/pip-freeze.txt",
+      "bytes": 18034,
+      "sha256": "aa84e5d9894aa46004e9ff3beecaa61060afd1d4c2ebed1a7bc6208a6efa3c3f"
+    },
+    {
+      "path": "validation/stage4_kaggle/predictions/T00_seed0_val.csv",
+      "bytes": 514172,
+      "sha256": "45cd4b66de7b4baacb9ef6b8498f47d83a9c119d3f01ea9d384db08a05a42f45"
+    },
+    {
+      "path": "validation/stage4_kaggle/predictions/T01_scratch_seed0_val.csv",
+      "bytes": 470541,
+      "sha256": "091312e12ff3a3ee88063bd08d1effc077cf6c5cf08046c54549fe65f71d83cb"
+    },
+    {
+      "path": "validation/stage4_kaggle/predictions/T02_frozen_seed0_val.csv",
+      "bytes": 483128,
+      "sha256": "d372dac5684fce434d792fcd606e500921740b79fc64bbe3f02937c8bde268b4"
+    },
+    {
+      "path": "validation/stage4_kaggle/predictions/T03_randaug_seed0_val.csv",
+      "bytes": 513539,
+      "sha256": "083eddb873a91ad0fcc0e6d513ea6acace4e6c4e8d7f119e5fc9e1e9f2996f61"
+    },
+    {
+      "path": "validation/stage4_kaggle/predictions/T04_cutmix_seed0_val.csv",
+      "bytes": 501657,
+      "sha256": "dea854e4544429b2b1ee4c2f893cb8fb0c1c814441f92e765172b695c8b13385"
+    },
+    {
+      "path": "validation/stage4_kaggle/predictions/T05_smoothing_seed0_val.csv",
+      "bytes": 471728,
+      "sha256": "69fecc06573860f95884b8f83dfe965d04dbd1bf86b2ba0283e37c473d59c082"
+    },
+    {
+      "path": "validation/stage4_kaggle/predictions/T06_focal_seed0_val.csv",
+      "bytes": 497586,
+      "sha256": "06ae0e21c11af04d20852b57118870d6ac6bc0a4fef59069ead1d09eba29b54b"
+    },
+    {
+      "path": "validation/stage4_kaggle/predictions/T07_combined_seed0_val.csv",
+      "bytes": 471728,
+      "sha256": "69fecc06573860f95884b8f83dfe965d04dbd1bf86b2ba0283e37c473d59c082"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T00/seed0/config.json",
+      "bytes": 1106,
+      "sha256": "a545b57d9ce6bbcf88eb3e67972cf3fc8323f1ddd9e1bc6ec157998ba7bd9fe7"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T00/seed0/curves.png",
+      "bytes": 106210,
+      "sha256": "b37875ca87e225638f06a4c7eb40a77700f7705bc44ccd1708f9ccc0ba62216a"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T00/seed0/environment.json",
+      "bytes": 133,
+      "sha256": "e7a41e3500fe14039a83abb7cb20cc6eb1c23c3d2b08793e53202be8a86a66d3"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T00/seed0/history.csv",
+      "bytes": 1824,
+      "sha256": "37ea10f5c446668931770879d87181fa7534a7b08d3d22390d50c5e1a0715127"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T00/seed0/preprocessing.json",
+      "bytes": 1013,
+      "sha256": "493d2b5d314fedfedd701fa41d3de52761a550e80cee6cb149e63876c290ec2b"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T00/seed0/split_check.json",
+      "bytes": 744,
+      "sha256": "5d005552ee81098177e32cd98bf469f28a08e434c41921991019434f812b8e2f"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T00/seed0/summary.json",
+      "bytes": 571,
+      "sha256": "9667da1e4b45eb320f6a29188f2864a0f404305d4d79cd6484b358a07dae52ae"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T00/seed0/val_logits.npz",
+      "bytes": 144546,
+      "sha256": "8b4b066b193605c0a6d1787a7a9de1405f233efc3a831114443405ea64936deb"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T01_scratch/seed0/config.json",
+      "bytes": 1113,
+      "sha256": "0150703325353f363ee16a785334cfbcdb95859071c9b5aa7841240871a74891"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T01_scratch/seed0/curves.png",
+      "bytes": 105085,
+      "sha256": "7b9126d8f75baf03610167a1d243cb9cd26191a411bd416ae79b451078f49f55"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T01_scratch/seed0/environment.json",
+      "bytes": 133,
+      "sha256": "e7a41e3500fe14039a83abb7cb20cc6eb1c23c3d2b08793e53202be8a86a66d3"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T01_scratch/seed0/history.csv",
+      "bytes": 1807,
+      "sha256": "f6a2e5c14cec46a4f78ff44f696052091b2d9c1c871ddc20d9cbcb7f4db9c4dd"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T01_scratch/seed0/preprocessing.json",
+      "bytes": 1013,
+      "sha256": "493d2b5d314fedfedd701fa41d3de52761a550e80cee6cb149e63876c290ec2b"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T01_scratch/seed0/split_check.json",
+      "bytes": 744,
+      "sha256": "5d005552ee81098177e32cd98bf469f28a08e434c41921991019434f812b8e2f"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T01_scratch/seed0/summary.json",
+      "bytes": 580,
+      "sha256": "54f7db864346f5d3878d1ed75aa6f0405827139d43e8feada8fe6a725b161026"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T01_scratch/seed0/val_logits.npz",
+      "bytes": 146362,
+      "sha256": "1e26510a69cc1ddcf050122f48905839d1493bd6596bcb5f0b2ab0ce4818aa1b"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T02_frozen/seed0/config.json",
+      "bytes": 1111,
+      "sha256": "8d1ade289b037143e6433a499f3355170b5e850817f0313bba2f1268a0bb85dd"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T02_frozen/seed0/curves.png",
+      "bytes": 99841,
+      "sha256": "93a9c4ed0843a8852c9f78d8d61579f21e46c259808753c89f09132427d7ae99"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T02_frozen/seed0/environment.json",
+      "bytes": 133,
+      "sha256": "e7a41e3500fe14039a83abb7cb20cc6eb1c23c3d2b08793e53202be8a86a66d3"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T02_frozen/seed0/history.csv",
+      "bytes": 1732,
+      "sha256": "2fe1a079d3a089ffba26bd1ef94cd837265d1b749a636fc1b3071078958ddf35"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T02_frozen/seed0/preprocessing.json",
+      "bytes": 1013,
+      "sha256": "493d2b5d314fedfedd701fa41d3de52761a550e80cee6cb149e63876c290ec2b"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T02_frozen/seed0/split_check.json",
+      "bytes": 744,
+      "sha256": "5d005552ee81098177e32cd98bf469f28a08e434c41921991019434f812b8e2f"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T02_frozen/seed0/summary.json",
+      "bytes": 579,
+      "sha256": "027906eefb6ef725e5b6cceb86611c046c43baeb873a89cb58cfa25bcbc572bc"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T02_frozen/seed0/val_logits.npz",
+      "bytes": 145199,
+      "sha256": "7b4f46292ce2e86a96b121958d49e646a853c44ea1a6e3a729fe80f8914f7a01"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T03_randaug/seed0/config.json",
+      "bytes": 1116,
+      "sha256": "662c6df770455b7b773aff74db502a74c1502fe1886298a639f7ec60c102b74d"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T03_randaug/seed0/curves.png",
+      "bytes": 109625,
+      "sha256": "e2a40ddf7dd318a6038f44fb53e6472903ceaddc881a65625cffb2d48171b306"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T03_randaug/seed0/environment.json",
+      "bytes": 133,
+      "sha256": "e7a41e3500fe14039a83abb7cb20cc6eb1c23c3d2b08793e53202be8a86a66d3"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T03_randaug/seed0/history.csv",
+      "bytes": 1800,
+      "sha256": "448325c40ddeceda32ca160ad3f466e25106b8607b915399043664da01a17475"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T03_randaug/seed0/preprocessing.json",
+      "bytes": 1013,
+      "sha256": "493d2b5d314fedfedd701fa41d3de52761a550e80cee6cb149e63876c290ec2b"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T03_randaug/seed0/split_check.json",
+      "bytes": 744,
+      "sha256": "5d005552ee81098177e32cd98bf469f28a08e434c41921991019434f812b8e2f"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T03_randaug/seed0/summary.json",
+      "bytes": 579,
+      "sha256": "c1eb6bdaba1309a0237da322aa17a3a014d73fd5fbcfc93f01c92d272f256f88"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T03_randaug/seed0/val_logits.npz",
+      "bytes": 144516,
+      "sha256": "a2a77f9f878cf005a4024756f99dda5ede6831fdd396877dc7908789e0d4128d"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T04_cutmix/seed0/config.json",
+      "bytes": 1117,
+      "sha256": "ab392d67199a3ff6f0cd4638436f5610561229836db4078239f901de9b441139"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T04_cutmix/seed0/curves.png",
+      "bytes": 110626,
+      "sha256": "0ce06674329d2c75a37978be7933c48dbb93522ce732e3fe95baeccd8397063f"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T04_cutmix/seed0/environment.json",
+      "bytes": 133,
+      "sha256": "e7a41e3500fe14039a83abb7cb20cc6eb1c23c3d2b08793e53202be8a86a66d3"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T04_cutmix/seed0/history.csv",
+      "bytes": 1776,
+      "sha256": "45f35fd11066f1868d2915dfee283eb1b7bf88abe56dbae9f1eff2274b129ee7"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T04_cutmix/seed0/preprocessing.json",
+      "bytes": 1013,
+      "sha256": "493d2b5d314fedfedd701fa41d3de52761a550e80cee6cb149e63876c290ec2b"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T04_cutmix/seed0/split_check.json",
+      "bytes": 744,
+      "sha256": "5d005552ee81098177e32cd98bf469f28a08e434c41921991019434f812b8e2f"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T04_cutmix/seed0/summary.json",
+      "bytes": 577,
+      "sha256": "d1911e91339e6cfe6e2eeec2245b098dc11b435aded40f57cb943c107f0e7456"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T04_cutmix/seed0/val_logits.npz",
+      "bytes": 143937,
+      "sha256": "7bc245b75a9c71f017d1da86d94eb366b7cb6c8e03e9f96700f1646f90764ee5"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T05_smoothing/seed0/config.json",
+      "bytes": 1116,
+      "sha256": "8cce85177c8383162c4de061f87c2e8924df4655e704c8a82589f35daaad7797"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T05_smoothing/seed0/curves.png",
+      "bytes": 108129,
+      "sha256": "6dd50aa84d3d0aefd1a80d77dba0edc5c91ab1b1249670a639ca7837febb0591"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T05_smoothing/seed0/environment.json",
+      "bytes": 133,
+      "sha256": "e7a41e3500fe14039a83abb7cb20cc6eb1c23c3d2b08793e53202be8a86a66d3"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T05_smoothing/seed0/history.csv",
+      "bytes": 1776,
+      "sha256": "3ada9a5cb6b843b047cb1d67b966425c3e81398e68f0cdbe36ccf0ffef7f7188"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T05_smoothing/seed0/preprocessing.json",
+      "bytes": 1013,
+      "sha256": "493d2b5d314fedfedd701fa41d3de52761a550e80cee6cb149e63876c290ec2b"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T05_smoothing/seed0/split_check.json",
+      "bytes": 744,
+      "sha256": "5d005552ee81098177e32cd98bf469f28a08e434c41921991019434f812b8e2f"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T05_smoothing/seed0/summary.json",
+      "bytes": 582,
+      "sha256": "4e01b6b59f47985c797b55654e677906c0927bd8eb9ff07961030c05f922e249"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T05_smoothing/seed0/val_logits.npz",
+      "bytes": 142791,
+      "sha256": "9a95c6f7b0cab85089f08dc973f6a994236d76a014b566bb3eb6b1f174415d62"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T06_focal/seed0/config.json",
+      "bytes": 1115,
+      "sha256": "a9b142f030a8506cd8c72321c98a4dbf54b4e5004da994ee68304cb48d5064fa"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T06_focal/seed0/curves.png",
+      "bytes": 109426,
+      "sha256": "eeeef7faf219434730c4ff7b1fbfaf3cb423692f7822c51681d47276a89e5123"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T06_focal/seed0/environment.json",
+      "bytes": 133,
+      "sha256": "e7a41e3500fe14039a83abb7cb20cc6eb1c23c3d2b08793e53202be8a86a66d3"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T06_focal/seed0/history.csv",
+      "bytes": 1787,
+      "sha256": "1a2325008b405b89e5356065e3cb16589a09f7a1830dd32ae3ba18e76349cd15"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T06_focal/seed0/preprocessing.json",
+      "bytes": 1013,
+      "sha256": "493d2b5d314fedfedd701fa41d3de52761a550e80cee6cb149e63876c290ec2b"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T06_focal/seed0/split_check.json",
+      "bytes": 744,
+      "sha256": "5d005552ee81098177e32cd98bf469f28a08e434c41921991019434f812b8e2f"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T06_focal/seed0/summary.json",
+      "bytes": 574,
+      "sha256": "deb9ef40f52b02a7a71a5e12d23e8686596dc2d1a8bbd73cc5de2290ced7e3ad"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T06_focal/seed0/val_logits.npz",
+      "bytes": 145220,
+      "sha256": "737006f337b39ab37f0d4570626357c6e626eef53e3d22520d4068c9056f63cd"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T07_combined/seed0/config.json",
+      "bytes": 1118,
+      "sha256": "54d3cc6722a2f93f8110b05237cb9623bfe192b5a6f46f9147594f46ce4cb474"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T07_combined/seed0/curves.png",
+      "bytes": 107547,
+      "sha256": "58b5ef9b73eb10b85287ba1cc116025d785633d21a34564abe357339a2755201"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T07_combined/seed0/environment.json",
+      "bytes": 133,
+      "sha256": "e7a41e3500fe14039a83abb7cb20cc6eb1c23c3d2b08793e53202be8a86a66d3"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T07_combined/seed0/history.csv",
+      "bytes": 1775,
+      "sha256": "31ed8f72f595f6fa2fa74d00c4c37b41e1c1052dfe7c8cfddcb87a34f2d18f10"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T07_combined/seed0/preprocessing.json",
+      "bytes": 1013,
+      "sha256": "493d2b5d314fedfedd701fa41d3de52761a550e80cee6cb149e63876c290ec2b"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T07_combined/seed0/split_check.json",
+      "bytes": 744,
+      "sha256": "5d005552ee81098177e32cd98bf469f28a08e434c41921991019434f812b8e2f"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T07_combined/seed0/summary.json",
+      "bytes": 581,
+      "sha256": "f8ee245ac8e8b8268ab60c80ef926b4aed3bfec92d0e07027abdb3d2481a585d"
+    },
+    {
+      "path": "validation/stage4_kaggle/runs/T07_combined/seed0/val_logits.npz",
+      "bytes": 142791,
+      "sha256": "9a95c6f7b0cab85089f08dc973f6a994236d76a014b566bb3eb6b1f174415d62"
+    },
+    {
+      "path": "validation/stage4_kaggle/single_axis_configs.json",
+      "bytes": 8293,
+      "sha256": "afc86faad8b016311cb4b5fbfc8f0194322e2300756e10e0136ba5e823f2daba"
+    },
+    {
+      "path": "validation/stage4_kaggle/stage3_backbones_ranked.csv",
+      "bytes": 1686,
+      "sha256": "c62c29f4e8733e03c314d5df80437b414fa4ea8b68ed066de38a30a0b96bb15d"
+    },
+    {
+      "path": "validation/stage4_kaggle/stage3_verification.json",
+      "bytes": 1176,
+      "sha256": "d3808c43efdf44f84be55b386c9931cd671844c557c1e9938b5cdc014af0435a"
+    },
+    {
+      "path": "validation/stage4_kaggle/stage4_manifest.json",
+      "bytes": 2067,
+      "sha256": "787fd0a2b9ed6546e21e29231ff7edfcce3b1de5080bf0a6c58f15e27cfb891b"
+    },
+    {
+      "path": "validation/stage4_kaggle/stage4_summary.json",
+      "bytes": 270,
+      "sha256": "0795e5b1d4de3f5924136816a005da8c2ab8c1f70ee870076e80bd7378a1da85"
+    },
+    {
+      "path": "validation/stage4_kaggle/suite_identity.json",
+      "bytes": 12421,
+      "sha256": "9f0a0965daca994e3bfd639874764496f5dd2963c228e67d076efa5211ae4d69"
+    },
+    {
+      "path": "validation/stage4_kaggle/test_pipeline.py.log",
+      "bytes": 2571,
+      "sha256": "d9cd15e677b419fa293530283472ee0740e69e1ccc36781eb481d1844c59f079"
+    },
+    {
+      "path": "validation/stage4_kaggle/test_stage3.py.log",
+      "bytes": 2400,
+      "sha256": "74b5c1272d300488685e2564761391a886ee57cb851aa240b0f2e6f70f7b0e36"
+    },
+    {
+      "path": "validation/stage4_kaggle/test_stage4.py.log",
+      "bytes": 671,
+      "sha256": "b298678401caa8e4900bf761b8436b5cd5787b666dfabce1244c2feafa0597a9"
+    },
+    {
+      "path": "validation/stage4_kaggle/training.csv",
+      "bytes": 5193,
+      "sha256": "01ec841532642d73eb207b846ef2946392afc192051bf0786e4b30efa5090675"
+    },
+    {
+      "path": "validation/stage4_kaggle/training_ablation.png",
+      "bytes": 61508,
+      "sha256": "d4a45ca38b94cebe6c9aa54d1ed444c53ad41c47000c8b90b6d3d0ee9812a82b"
+    },
+    {
+      "path": "validation/stage4_kaggle/training_ranked.csv",
+      "bytes": 5193,
+      "sha256": "21061e5bc55a38348f34005a65aa43b6ecac6b1ea5cfedd3fd75b326bfff42de"
+    },
+    {
+      "path": "validation/stage4_kaggle/verification.json",
+      "bytes": 2193,
+      "sha256": "e996878a4e79e8132c30a4eb175cac33f07ac4edb22a39a4c1b8f2f30ee1f0cf"
+    },
+    {
+      "path": "validation/stage5_kaggle/code/benchmark.py",
+      "bytes": 3156,
+      "sha256": "f43f2d35794d930f56fafb0e4a58fa1e7b81a88f6220b69b3f1bebe110649b4e"
+    },
+    {
+      "path": "validation/stage5_kaggle/code/dataset.py",
+      "bytes": 5785,
+      "sha256": "ed9a77345ac3c10fb0976e769edb4b639773a02889fb4911008a6e8e274ae812"
+    },
+    {
+      "path": "validation/stage5_kaggle/code/eval.py",
+      "bytes": 25704,
+      "sha256": "1210f3c7ca1cb9b4488383f1ceeaa139bfdf5c683694b300f6c55b6b9cdde28e"
+    },
+    {
+      "path": "validation/stage5_kaggle/code/inference.py",
+      "bytes": 2965,
+      "sha256": "06c8e94230b2d45d307b6cf0b915d0effb3e8fec7689c77587c41b5efc26c7b4"
+    },
+    {
+      "path": "validation/stage5_kaggle/code/losses.py",
+      "bytes": 2763,
+      "sha256": "38fb990608065cd860dcedff0be5bcea53cd7429f0f9ad7572b611516676e497"
+    },
+    {
+      "path": "validation/stage5_kaggle/code/model.py",
+      "bytes": 2830,
+      "sha256": "8db5bbca5261bf25eca9842a932aa0bbb4d9ff8bd906118718b09b607dc288fc"
+    },
+    {
+      "path": "validation/stage5_kaggle/code/smoke_checks.py",
+      "bytes": 5628,
+      "sha256": "7b7963f1e26255e22d5034d942b656e89a3e6ac93d0948ac2c09e552d802b68b"
+    },
+    {
+      "path": "validation/stage5_kaggle/code/stage1.py",
+      "bytes": 8281,
+      "sha256": "f1a9bdae86d35820385978c2ee84e11f295d202850370a0eb7fa166980aaf7bd"
+    },
+    {
+      "path": "validation/stage5_kaggle/code/stage3.py",
+      "bytes": 12208,
+      "sha256": "a4a7ef3a398023cfe50a166300a60837f8ec8c8e61d21604c9e63cb1c73d7d19"
+    },
+    {
+      "path": "validation/stage5_kaggle/code/stage4.py",
+      "bytes": 9727,
+      "sha256": "bf0aaa83e1223279fc34e757ab951362a38a9be3f0833b7ccf86dce56e5f7c16"
+    },
+    {
+      "path": "validation/stage5_kaggle/code/stage5.py",
+      "bytes": 9676,
+      "sha256": "afca56d41fba3419f62695ebe2d334cc327437bfe4c21e3bcfd57233eed36184"
+    },
+    {
+      "path": "validation/stage5_kaggle/code/train.py",
+      "bytes": 20049,
+      "sha256": "fb7f4bf09a96ca7400de16faa70815199a6b613a2841123ccfed28cebf6ddf14"
+    },
+    {
+      "path": "validation/stage5_kaggle/inference.csv",
+      "bytes": 3372,
+      "sha256": "47b060dd3f380b24e10544170c7086c6f446f4fbf32585ba4ca05521a4b70c99"
+    },
+    {
+      "path": "validation/stage5_kaggle/inference_ranked.csv",
+      "bytes": 3372,
+      "sha256": "2b1f8928ed4fdfa37432dedabb32f2d3f4304c9518f877c3d5b57fce7b0ef2c7"
+    },
+    {
+      "path": "validation/stage5_kaggle/inference_tradeoff.png",
+      "bytes": 79959,
+      "sha256": "ea69f0b5e847cdb5319c3fd2eb3b55fc3e0c23362b0057ccbd7e8d86f3f397b6"
+    },
+    {
+      "path": "validation/stage5_kaggle/methods/T00/I00/report.json",
+      "bytes": 7064,
+      "sha256": "7a772433f864f6740675fb99caca49f56f15c950fb6084b5d662309cf9b2fc27"
+    },
+    {
+      "path": "validation/stage5_kaggle/methods/T00/I00/views_logits.npz",
+      "bytes": 144550,
+      "sha256": "86df62fdcdece7c0f0ed9a78db91fc19903b9e27fadb6b72a9143753f6666604"
+    },
+    {
+      "path": "validation/stage5_kaggle/methods/T00/I01_hflip/report.json",
+      "bytes": 6982,
+      "sha256": "8f6022a24162e4453b659477fb4564a071d4a6c5fbd4971e639a4cbbab65b3fd"
+    },
+    {
+      "path": "validation/stage5_kaggle/methods/T00/I01_hflip/views_logits.npz",
+      "bytes": 259796,
+      "sha256": "f28a34f53ded0972c958d331be9af0bed4b7822a00e488e85300394e68200275"
+    },
+    {
+      "path": "validation/stage5_kaggle/methods/T00/I02_5crop_prob/report.json",
+      "bytes": 6857,
+      "sha256": "80f661eead5bf11bc84dff4faaa2a9bc5074b0a11f8965f158ab802314e70f61"
+    },
+    {
+      "path": "validation/stage5_kaggle/methods/T00/I02_5crop_prob/views_logits.npz",
+      "bytes": 605407,
+      "sha256": "f7506df878319378af7d3a3670b6d9f2636e0d78c0845db924a2ce8f9afe6d82"
+    },
+    {
+      "path": "validation/stage5_kaggle/methods/T00/I03_5crop_logit/report.json",
+      "bytes": 6871,
+      "sha256": "69249c4806f1834842360efc1a6bbb0568e91ad0cb7fd183c69c08f3b837d516"
+    },
+    {
+      "path": "validation/stage5_kaggle/methods/T00/I03_5crop_logit/views_logits.npz",
+      "bytes": 605407,
+      "sha256": "f7506df878319378af7d3a3670b6d9f2636e0d78c0845db924a2ce8f9afe6d82"
+    },
+    {
+      "path": "validation/stage5_kaggle/methods/T00/I04_res256/report.json",
+      "bytes": 7048,
+      "sha256": "5fbadf0b87c937c9e0acf777190804bd65689cab047155010ed297c8a41a6314"
+    },
+    {
+      "path": "validation/stage5_kaggle/methods/T00/I04_res256/views_logits.npz",
+      "bytes": 144250,
+      "sha256": "3b4e58037c6806ffa55cc75fc6d773c1b5ba3dcb892235a88ce3878f66005ebc"
+    },
+    {
+      "path": "validation/stage5_kaggle/methods/T00/I04_res288/report.json",
+      "bytes": 7053,
+      "sha256": "874094e23b6ffeb6880604933cc0e94b92c8f13f964f02dbe50feef5a05d00de"
+    },
+    {
+      "path": "validation/stage5_kaggle/methods/T00/I04_res288/views_logits.npz",
+      "bytes": 144160,
+      "sha256": "d201aa6ee0d6b3c53f00a47b79c46fb95b04347884971dbf86822888de644e34"
+    },
+    {
+      "path": "validation/stage5_kaggle/methods/T00/I07_temperature/report.json",
+      "bytes": 7068,
+      "sha256": "a9e8154f74c549f436991fd1d7973c73d64fb4442bdc0237234285fe325a3343"
+    },
+    {
+      "path": "validation/stage5_kaggle/methods/T00/I07_temperature/views_logits.npz",
+      "bytes": 144550,
+      "sha256": "86df62fdcdece7c0f0ed9a78db91fc19903b9e27fadb6b72a9143753f6666604"
+    },
+    {
+      "path": "validation/stage5_kaggle/methods/T00/I08_amp/report.json",
+      "bytes": 6966,
+      "sha256": "c8da7f90b42dfbba71f6bb220e798633b885b817e3654e3397f775316843ce4c"
+    },
+    {
+      "path": "validation/stage5_kaggle/methods/T00/I08_amp/views_logits.npz",
+      "bytes": 101030,
+      "sha256": "b711b077e46819d49ab4aa86ccc96bcd9b5e5c4f1d8c713026f93648f28c48aa"
+    },
+    {
+      "path": "validation/stage5_kaggle/methods/T05_smoothing/I00/report.json",
+      "bytes": 7045,
+      "sha256": "88ff7054f024164b62302197439d17f502add2ee209669acb24dab24513de8d0"
+    },
+    {
+      "path": "validation/stage5_kaggle/methods/T05_smoothing/I00/views_logits.npz",
+      "bytes": 142797,
+      "sha256": "4552352aa3aaa4cb79fe1b7636666a7e2d06f7d6fec2eb8c8fefedb7fa1e57ed"
+    },
+    {
+      "path": "validation/stage5_kaggle/methods/T05_smoothing/I01_hflip/report.json",
+      "bytes": 7000,
+      "sha256": "f0e7601ebcf8bb3fce2b416c98b97a203802c01ed13999987ca8276b0b3ea82c"
+    },
+    {
+      "path": "validation/stage5_kaggle/methods/T05_smoothing/I01_hflip/views_logits.npz",
+      "bytes": 256216,
+      "sha256": "9f77fc621ec809df92d1aea8d298801a84fb43d8ce43910d37ae7a6b6caa55dd"
+    },
+    {
+      "path": "validation/stage5_kaggle/methods/T05_smoothing/I02_5crop_prob/report.json",
+      "bytes": 6876,
+      "sha256": "0115b7dbef5b4461f162e579c1b9fdd1110a4e977a09cf0ccbe3d348cf07bda3"
+    },
+    {
+      "path": "validation/stage5_kaggle/methods/T05_smoothing/I02_5crop_prob/views_logits.npz",
+      "bytes": 596600,
+      "sha256": "7d1752865e1e91d3eaa3101a43d0f03e8d8f17e5dd9d5ab75700ed92d517aac3"
+    },
+    {
+      "path": "validation/stage5_kaggle/methods/T05_smoothing/I03_5crop_logit/report.json",
+      "bytes": 6877,
+      "sha256": "456b8588fb67d5000039b0b039d9557a51ac295059174697e5031217b67af8b1"
+    },
+    {
+      "path": "validation/stage5_kaggle/methods/T05_smoothing/I03_5crop_logit/views_logits.npz",
+      "bytes": 596600,
+      "sha256": "7d1752865e1e91d3eaa3101a43d0f03e8d8f17e5dd9d5ab75700ed92d517aac3"
+    },
+    {
+      "path": "validation/stage5_kaggle/methods/T05_smoothing/I04_res256/report.json",
+      "bytes": 7063,
+      "sha256": "b7b12edc782f277ca2111d747090afb1337dc3f4d602baa61eb8c8c18d42f779"
+    },
+    {
+      "path": "validation/stage5_kaggle/methods/T05_smoothing/I04_res256/views_logits.npz",
+      "bytes": 142531,
+      "sha256": "3f0a678dd6a2ba9c063064400de7ba6f3cbdcc06bc8b47e5bee5136836b8158e"
+    },
+    {
+      "path": "validation/stage5_kaggle/methods/T05_smoothing/I04_res288/report.json",
+      "bytes": 7060,
+      "sha256": "0cc5e0c59826816ca6816e02b2126e372ba7b65dedf4f3efb1bed40ff76720ba"
+    },
+    {
+      "path": "validation/stage5_kaggle/methods/T05_smoothing/I04_res288/views_logits.npz",
+      "bytes": 142498,
+      "sha256": "74248e4e2df1d87f4ff305e9b7d6c9442bd3646b046737a8f83828722d253a84"
+    },
+    {
+      "path": "validation/stage5_kaggle/methods/T05_smoothing/I07_temperature/report.json",
+      "bytes": 7070,
+      "sha256": "822d9c1b0d13799dbfdfa27f37b9e67bd4358d5d36dd008f95031d58cc106fd6"
+    },
+    {
+      "path": "validation/stage5_kaggle/methods/T05_smoothing/I07_temperature/views_logits.npz",
+      "bytes": 142797,
+      "sha256": "4552352aa3aaa4cb79fe1b7636666a7e2d06f7d6fec2eb8c8fefedb7fa1e57ed"
+    },
+    {
+      "path": "validation/stage5_kaggle/methods/T05_smoothing/I08_amp/report.json",
+      "bytes": 6988,
+      "sha256": "2f4f82e1a2f3187f7a9716c7c11497d90da47b28278a1caff26d59f804e9a1ae"
+    },
+    {
+      "path": "validation/stage5_kaggle/methods/T05_smoothing/I08_amp/views_logits.npz",
+      "bytes": 98190,
+      "sha256": "642f02a73b6030fe2c6de3b2966fc37c074ca010f22fceb9c9254884be76e27b"
+    },
+    {
+      "path": "validation/stage5_kaggle/pip-freeze.txt",
+      "bytes": 18034,
+      "sha256": "aa84e5d9894aa46004e9ff3beecaa61060afd1d4c2ebed1a7bc6208a6efa3c3f"
+    },
+    {
+      "path": "validation/stage5_kaggle/predictions/T00_I00_seed0_val.csv",
+      "bytes": 514133,
+      "sha256": "20c094ca60fede559408533a9ae87d2cb824c3499ee10d15c5830ee23b41098e"
+    },
+    {
+      "path": "validation/stage5_kaggle/predictions/T00_I01_hflip_seed0_val.csv",
+      "bytes": 513851,
+      "sha256": "6819676e734cb79deb4846d8ce755df1ecd0b7329701cfaae9640448ece053e3"
+    },
+    {
+      "path": "validation/stage5_kaggle/predictions/T00_I02_5crop_prob_seed0_val.csv",
+      "bytes": 513555,
+      "sha256": "50216ce3afeac7ce211d14cc421fbdcafb6ba9b21c85b2a908f88ccc51ad3041"
+    },
+    {
+      "path": "validation/stage5_kaggle/predictions/T00_I03_5crop_logit_seed0_val.csv",
+      "bytes": 514017,
+      "sha256": "c5b943df8bbb5544e20dc3e077ea300b8bcbd9cff5f626d5de4f0077a2c45205"
+    },
+    {
+      "path": "validation/stage5_kaggle/predictions/T00_I04_res256_seed0_val.csv",
+      "bytes": 514998,
+      "sha256": "ce41d65c8b8987d94212a3257da78ed2881992352757d374113cf39d00adae41"
+    },
+    {
+      "path": "validation/stage5_kaggle/predictions/T00_I04_res288_seed0_val.csv",
+      "bytes": 514971,
+      "sha256": "5db8af7f414da916335b72f2f4ca721b079123078bf482f31187271cc6015022"
+    },
+    {
+      "path": "validation/stage5_kaggle/predictions/T00_I07_temperature_seed0_val.csv",
+      "bytes": 512794,
+      "sha256": "8363075af7e66574bf57de2a98688cf8857720f751591cea41bb2d41e6336ad4"
+    },
+    {
+      "path": "validation/stage5_kaggle/predictions/T00_I08_amp_seed0_val.csv",
+      "bytes": 514117,
+      "sha256": "6476d837b954f2827878e89a6bda86e6d58ef6ec08216bc5a964776ff3cc2a56"
+    },
+    {
+      "path": "validation/stage5_kaggle/predictions/T05_smoothing_I00_seed0_val.csv",
+      "bytes": 471706,
+      "sha256": "c7fe8e8fc91cabb91d03d64312eae2418f75b508b320ccfd32b3c77dce64f76b"
+    },
+    {
+      "path": "validation/stage5_kaggle/predictions/T05_smoothing_I01_hflip_seed0_val.csv",
+      "bytes": 471539,
+      "sha256": "50c0c87cb0f26fd2dba85857a799158580e69e68206f770dc109d0db1097c46c"
+    },
+    {
+      "path": "validation/stage5_kaggle/predictions/T05_smoothing_I02_5crop_prob_seed0_val.csv",
+      "bytes": 471223,
+      "sha256": "0227f6cf532ff3ae2555d57173f9b60255037042da949393a164a01869f6a707"
+    },
+    {
+      "path": "validation/stage5_kaggle/predictions/T05_smoothing_I03_5crop_logit_seed0_val.csv",
+      "bytes": 471407,
+      "sha256": "7282ff5c6a67e28749a3e1026367485569aa274e0c241b18b3534b3420e2cec9"
+    },
+    {
+      "path": "validation/stage5_kaggle/predictions/T05_smoothing_I04_res256_seed0_val.csv",
+      "bytes": 471237,
+      "sha256": "ceb297cf6fe93ace521d7412cd3644a254ca6dbdd2e1031ba8f15a155df456d8"
+    },
+    {
+      "path": "validation/stage5_kaggle/predictions/T05_smoothing_I04_res288_seed0_val.csv",
+      "bytes": 470435,
+      "sha256": "53e3ebe8b1f6f7950d16676446e7003c1de37b445f634851012308d35b687313"
+    },
+    {
+      "path": "validation/stage5_kaggle/predictions/T05_smoothing_I07_temperature_seed0_val.csv",
+      "bytes": 509344,
+      "sha256": "e6029ac32d266d17091dd9dc51d90094c3a7dcd6f0e1a10dca2310a9eea2111a"
+    },
+    {
+      "path": "validation/stage5_kaggle/predictions/T05_smoothing_I08_amp_seed0_val.csv",
+      "bytes": 471615,
+      "sha256": "a65598317044aea6bcd06f019676269c03595aefb992f96b5849b8e5253cabe0"
+    },
+    {
+      "path": "validation/stage5_kaggle/stage4_verification.json",
+      "bytes": 2193,
+      "sha256": "e996878a4e79e8132c30a4eb175cac33f07ac4edb22a39a4c1b8f2f30ee1f0cf"
+    },
+    {
+      "path": "validation/stage5_kaggle/stage5_manifest.json",
+      "bytes": 2208,
+      "sha256": "f41a7ce404186903c9c3b15d6da40e72adf43079c6c5c743cc31aa9d52d5eb31"
+    },
+    {
+      "path": "validation/stage5_kaggle/stage5_summary.json",
+      "bytes": 336,
+      "sha256": "dff97215e769a2d2570e572d04ec991bb5ac1039fbce6dd867ba869e21e8c6e8"
+    },
+    {
+      "path": "validation/stage5_kaggle/suite_identity.json",
+      "bytes": 1618,
+      "sha256": "efbfe948b3ae52a6e9fe9828568712c54bb45bdf4b497ba58bcd29a68066cbeb"
+    },
+    {
+      "path": "validation/stage5_kaggle/test_pipeline.py.log",
+      "bytes": 2571,
+      "sha256": "336fc60745ce3c28632a020f4c2388214a3b8039219304fdb0872cd05b4552c7"
+    },
+    {
+      "path": "validation/stage5_kaggle/test_stage5.py.log",
+      "bytes": 735,
+      "sha256": "b6904e5c41c19a781ae881a115e2af8160f1ba525f2e891314c86e7bdfa59f13"
+    },
+    {
+      "path": "validation/stage5_kaggle/verification.json",
+      "bytes": 4002,
+      "sha256": "acd366e4902d6d807cc5c44ca26c254da30da742bb17a83b49f1d2ff09ada3e0"
+    },
+    {
+      "path": "validation/stage6_kaggle/code/benchmark.py",
+      "bytes": 3156,
+      "sha256": "f43f2d35794d930f56fafb0e4a58fa1e7b81a88f6220b69b3f1bebe110649b4e"
+    },
+    {
+      "path": "validation/stage6_kaggle/code/dataset.py",
+      "bytes": 5785,
+      "sha256": "ed9a77345ac3c10fb0976e769edb4b639773a02889fb4911008a6e8e274ae812"
+    },
+    {
+      "path": "validation/stage6_kaggle/code/eval.py",
+      "bytes": 25704,
+      "sha256": "1210f3c7ca1cb9b4488383f1ceeaa139bfdf5c683694b300f6c55b6b9cdde28e"
+    },
+    {
+      "path": "validation/stage6_kaggle/code/inference.py",
+      "bytes": 2965,
+      "sha256": "06c8e94230b2d45d307b6cf0b915d0effb3e8fec7689c77587c41b5efc26c7b4"
+    },
+    {
+      "path": "validation/stage6_kaggle/code/losses.py",
+      "bytes": 2763,
+      "sha256": "38fb990608065cd860dcedff0be5bcea53cd7429f0f9ad7572b611516676e497"
+    },
+    {
+      "path": "validation/stage6_kaggle/code/model.py",
+      "bytes": 2830,
+      "sha256": "8db5bbca5261bf25eca9842a932aa0bbb4d9ff8bd906118718b09b607dc288fc"
+    },
+    {
+      "path": "validation/stage6_kaggle/code/smoke_checks.py",
+      "bytes": 5628,
+      "sha256": "7b7963f1e26255e22d5034d942b656e89a3e6ac93d0948ac2c09e552d802b68b"
+    },
+    {
+      "path": "validation/stage6_kaggle/code/stage1.py",
+      "bytes": 8281,
+      "sha256": "f1a9bdae86d35820385978c2ee84e11f295d202850370a0eb7fa166980aaf7bd"
+    },
+    {
+      "path": "validation/stage6_kaggle/code/stage3.py",
+      "bytes": 12208,
+      "sha256": "a4a7ef3a398023cfe50a166300a60837f8ec8c8e61d21604c9e63cb1c73d7d19"
+    },
+    {
+      "path": "validation/stage6_kaggle/code/stage4.py",
+      "bytes": 9727,
+      "sha256": "bf0aaa83e1223279fc34e757ab951362a38a9be3f0833b7ccf86dce56e5f7c16"
+    },
+    {
+      "path": "validation/stage6_kaggle/code/stage5.py",
+      "bytes": 9676,
+      "sha256": "afca56d41fba3419f62695ebe2d334cc327437bfe4c21e3bcfd57233eed36184"
+    },
+    {
+      "path": "validation/stage6_kaggle/code/stage6.py",
+      "bytes": 18071,
+      "sha256": "148161cedfb5fabbc5c65f16871e21b5a47b2fcfb1c11d11feab83da587c2797"
+    },
+    {
+      "path": "validation/stage6_kaggle/code/train.py",
+      "bytes": 20049,
+      "sha256": "fb7f4bf09a96ca7400de16faa70815199a6b613a2841123ccfed28cebf6ddf14"
+    },
+    {
+      "path": "validation/stage6_kaggle/confusions/F01_seed0_test.png",
+      "bytes": 95656,
+      "sha256": "ac1496b221821a69a73bf006827b3a91b8a88f2ca50ea1564b14af2c80e4e97e"
+    },
+    {
+      "path": "validation/stage6_kaggle/confusions/F01_seed1_test.png",
+      "bytes": 96239,
+      "sha256": "f8323f512151da9061bf84ec099b69b9ec745e484373ff4b219987840a9742db"
+    },
+    {
+      "path": "validation/stage6_kaggle/confusions/F01_seed2_test.png",
+      "bytes": 96884,
+      "sha256": "e88e785c54bb08bfc47822223b12ae269778121ad9f5e533e2dddf32f354c453"
+    },
+    {
+      "path": "validation/stage6_kaggle/confusions/T00_seed0_test.png",
+      "bytes": 99399,
+      "sha256": "d97906bb689385d852682a0a451f3b8b15e7c1f0123851f0f437858f82ac0d60"
+    },
+    {
+      "path": "validation/stage6_kaggle/confusions/T00_seed1_test.png",
+      "bytes": 99195,
+      "sha256": "4ca150b315733f2d54310fbb2b71df8f1c80d6181eb97ff44ac16a779ba135cb"
+    },
+    {
+      "path": "validation/stage6_kaggle/confusions/T00_seed2_test.png",
+      "bytes": 100030,
+      "sha256": "b06d3d9b1ab831765784561b8c80b350b146b274273bdd116baa529b1a1d9544"
+    },
+    {
+      "path": "validation/stage6_kaggle/final_complete.json",
+      "bytes": 154,
+      "sha256": "783ad35fea8fc4bab2f0288a02d7d465f10cd6b8b6412c4539771db3de6c24ab"
+    },
+    {
+      "path": "validation/stage6_kaggle/final_mean_std.csv",
+      "bytes": 1001,
+      "sha256": "e03d5760152de981ca8ff57a7b0852bfcb5aef67855e8d5c01a738fb7d68be04"
+    },
+    {
+      "path": "validation/stage6_kaggle/final_per_class.csv",
+      "bytes": 9002,
+      "sha256": "d66ee83302c915638806057e1b21590a1ea8817578c60166929603b95c0157b7"
+    },
+    {
+      "path": "validation/stage6_kaggle/final_per_class_mean_std.csv",
+      "bytes": 5143,
+      "sha256": "8089bbe131da0658b60b982addf8ee6d61cb5a9274b739fb4c81a996a8127b5c"
+    },
+    {
+      "path": "validation/stage6_kaggle/final_per_seed.csv",
+      "bytes": 1351,
+      "sha256": "ae030d3924bce310429664585874c3e2a5259a60579dfbd24423f3c5dc376d07"
+    },
+    {
+      "path": "validation/stage6_kaggle/frozen_recipe.json",
+      "bytes": 12559,
+      "sha256": "b8538e956bd2238dccc714d1088c0638896ae2b06933ef5432cb118ffa07a3ea"
+    },
+    {
+      "path": "validation/stage6_kaggle/official/F01_confusion_sum.csv",
+      "bytes": 482,
+      "sha256": "a18a86f0d766f3effc5b0ffeff4c14ba85a4c5d5e8c0c4741af49ca064227a9c"
+    },
+    {
+      "path": "validation/stage6_kaggle/official/F01_per_class.csv",
+      "bytes": 1295,
+      "sha256": "713e6347a2331793fa06a3fecd3a0dff97f1e939a8f602f1146e5fb532ac2373"
+    },
+    {
+      "path": "validation/stage6_kaggle/official/F01_per_seed.csv",
+      "bytes": 417,
+      "sha256": "f696022f16871f3dbe6716d3c34bfd00c6acc4797d460f94c3f9d44d4dceddff"
+    },
+    {
+      "path": "validation/stage6_kaggle/official/F01_score.txt",
+      "bytes": 1062,
+      "sha256": "c59cc12dc3c47894ed4c4ab8a132ac7b4d75a2e1122a61bf9b119f54b94da716"
+    },
+    {
+      "path": "validation/stage6_kaggle/official/F01_summary.json",
+      "bytes": 2267,
+      "sha256": "12db8db199042330e046e769be7ea239b179b8b1c0353bb44ae5bcd91f792dac"
+    },
+    {
+      "path": "validation/stage6_kaggle/official/F01_uncal_confusion_sum.csv",
+      "bytes": 482,
+      "sha256": "a18a86f0d766f3effc5b0ffeff4c14ba85a4c5d5e8c0c4741af49ca064227a9c"
+    },
+    {
+      "path": "validation/stage6_kaggle/official/F01_uncal_per_class.csv",
+      "bytes": 1295,
+      "sha256": "713e6347a2331793fa06a3fecd3a0dff97f1e939a8f602f1146e5fb532ac2373"
+    },
+    {
+      "path": "validation/stage6_kaggle/official/F01_uncal_per_seed.csv",
+      "bytes": 430,
+      "sha256": "df201c88ae24f6448abb602fd75f7ca59c35534e6d8c565619609d7487399521"
+    },
+    {
+      "path": "validation/stage6_kaggle/official/F01_uncal_score.txt",
+      "bytes": 1074,
+      "sha256": "aeaf9cba14cce25bed13765ed7ef2b4fe74ecbff2d85239ef3beddecbe43f5ac"
+    },
+    {
+      "path": "validation/stage6_kaggle/official/F01_uncal_summary.json",
+      "bytes": 2266,
+      "sha256": "d0febe1b27dea2dcb6b9375c18bb2b5183b1db92fa43f8524a44062d0db12a81"
+    },
+    {
+      "path": "validation/stage6_kaggle/official/grade.txt",
+      "bytes": 863,
+      "sha256": "2b0d1e1bbcbac064ea9fcbb24fe888cf63463ca937ea921b1175cc82bc2bdf5b"
+    },
+    {
+      "path": "validation/stage6_kaggle/official/grade_I.json",
+      "bytes": 1135,
+      "sha256": "48b7eb37bf302b4a70cba3e1a808b27646cc389561f4df70301cceb3f592d83b"
+    },
+    {
+      "path": "validation/stage6_kaggle/official/latency_grade_input.json",
+      "bytes": 185,
+      "sha256": "4f882a93dd845d22bdc9e7e6a3fb2d5bb05f76ce9a40038b3734a54ae4511192"
+    },
+    {
+      "path": "validation/stage6_kaggle/official/T00_confusion_sum.csv",
+      "bytes": 485,
+      "sha256": "cb12b719ce9ae6520856699b467c396dc6cf9264c30b3eaba90ffa7caa2d937e"
+    },
+    {
+      "path": "validation/stage6_kaggle/official/T00_per_class.csv",
+      "bytes": 1278,
+      "sha256": "bc9dce510c000599fdedf6450f2c0d76a6b504994b134599461722d691671031"
+    },
+    {
+      "path": "validation/stage6_kaggle/official/T00_per_seed.csv",
+      "bytes": 417,
+      "sha256": "1a3c13ae1f1e1e9608e4a08d6e96d3ef969942d3d2111678694b14cfc86c9743"
+    },
+    {
+      "path": "validation/stage6_kaggle/official/T00_score.txt",
+      "bytes": 1062,
+      "sha256": "dbbbbd0ae9d03899adaaa747474ba0d4f996b6c82697cdb6fa863dc02a86c5e3"
+    },
+    {
+      "path": "validation/stage6_kaggle/official/T00_summary.json",
+      "bytes": 2252,
+      "sha256": "a0159ed6e17859c45352cffcb1705154574093b7f1d2cef806a1fb3071796398"
+    },
+    {
+      "path": "validation/stage6_kaggle/pip-freeze.txt",
+      "bytes": 18034,
+      "sha256": "aa84e5d9894aa46004e9ff3beecaa61060afd1d4c2ebed1a7bc6208a6efa3c3f"
+    },
+    {
+      "path": "validation/stage6_kaggle/predictions/F01_seed0_test.csv",
+      "bytes": 511037,
+      "sha256": "181c53c0e2d4538d4c316863ec6d470235e94578f84408d0a6677f3c326cd223"
+    },
+    {
+      "path": "validation/stage6_kaggle/predictions/F01_seed0_val.csv",
+      "bytes": 510368,
+      "sha256": "7558bad9e8bb47712462eeb1b7c92f564041f0dbae6302443c3f71f546729baf"
+    },
+    {
+      "path": "validation/stage6_kaggle/predictions/F01_seed1_test.csv",
+      "bytes": 509599,
+      "sha256": "9432f78257c928f485ffa6dad20f87d65f2e318795c2c2fa70c8d2170bedbfbd"
+    },
+    {
+      "path": "validation/stage6_kaggle/predictions/F01_seed1_val.csv",
+      "bytes": 508367,
+      "sha256": "9973f720e1ba0c7b93efa0deb3dbd269eb436d8981a6be7500274a7496e849a8"
+    },
+    {
+      "path": "validation/stage6_kaggle/predictions/F01_seed2_test.csv",
+      "bytes": 511264,
+      "sha256": "205981dbe790e182f0fa8e4744de0a80702e8e7a6142b3de24fd80745f5930b3"
+    },
+    {
+      "path": "validation/stage6_kaggle/predictions/F01_seed2_val.csv",
+      "bytes": 510458,
+      "sha256": "463528f6c424b309884e927c2ab2ad7ad2e23bb9ebe7b7f6926e3e789bc52b6c"
+    },
+    {
+      "path": "validation/stage6_kaggle/predictions/F01_uncal_seed0_test.csv",
+      "bytes": 470923,
+      "sha256": "988dc91d744ed542eb6c45f444e9b1736cfdb9261eb3aaeff86bae11324a2077"
+    },
+    {
+      "path": "validation/stage6_kaggle/predictions/F01_uncal_seed0_val.csv",
+      "bytes": 470506,
+      "sha256": "9d4e0c4c7aec100c4561bcbbae2f4ac746ff26e14f3fb898d8a7f9182bc427f3"
+    },
+    {
+      "path": "validation/stage6_kaggle/predictions/F01_uncal_seed1_test.csv",
+      "bytes": 470731,
+      "sha256": "e59141ac30ea44d643205a6fd42cb220659ab8c25928ca11a8f811dd81f604a0"
+    },
+    {
+      "path": "validation/stage6_kaggle/predictions/F01_uncal_seed1_val.csv",
+      "bytes": 469622,
+      "sha256": "565d1f130d562ca3f0b63a0ea6dfbe7d6a71975a44a123eb376a095508a03185"
+    },
+    {
+      "path": "validation/stage6_kaggle/predictions/F01_uncal_seed2_test.csv",
+      "bytes": 471334,
+      "sha256": "bd4da4419847cb15865f59113f0a61dafd132c8d23c84d1a1a4ae24c9d562b9c"
+    },
+    {
+      "path": "validation/stage6_kaggle/predictions/F01_uncal_seed2_val.csv",
+      "bytes": 470422,
+      "sha256": "a0036da225b5ed2f4581c4306631a562a6b751eacf3197a15dad630207c4826d"
+    },
+    {
+      "path": "validation/stage6_kaggle/predictions/T00_seed0_test.csv",
+      "bytes": 514845,
+      "sha256": "83a8a5887a1759ddb1e778dcfdc1a6a360001d34934cd54170a622449a83366b"
+    },
+    {
+      "path": "validation/stage6_kaggle/predictions/T00_seed0_val.csv",
+      "bytes": 514013,
+      "sha256": "9062decfc5e8598e96dfd52daa4070a57700c3d214c9dfe9ad9ed7281ad39f39"
+    },
+    {
+      "path": "validation/stage6_kaggle/predictions/T00_seed1_test.csv",
+      "bytes": 515626,
+      "sha256": "f5f5ee506115df3c623992df96e0d2f926bb71ab51fb85e721c636537a5b5354"
+    },
+    {
+      "path": "validation/stage6_kaggle/predictions/T00_seed1_val.csv",
+      "bytes": 514680,
+      "sha256": "5f3ab3a0144b951ff1761c4aabf0e1dea7682d1f2c4527a1e6953c136ef31c66"
+    },
+    {
+      "path": "validation/stage6_kaggle/predictions/T00_seed2_test.csv",
+      "bytes": 514666,
+      "sha256": "3721a43793150e587624b8542d7217b838cecd13bddc7b4d067b1e1dde776e53"
+    },
+    {
+      "path": "validation/stage6_kaggle/predictions/T00_seed2_val.csv",
+      "bytes": 513729,
+      "sha256": "12feb8807d2ad356f0a3ee945dd30e284e598a42ce9d481ed6a45ff94510753e"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/F01/seed0/config.json",
+      "bytes": 1109,
+      "sha256": "17433bec95042e7cf07f218b19980c2cb8e0b9b4b4b83e5c19dda29d5677cb06"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/F01/seed0/curves.png",
+      "bytes": 105977,
+      "sha256": "ee6fa5ceb6fba3dff2279ed4c6402b8eed6b11703c2b76d2d848d6000ad6efd4"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/F01/seed0/environment.json",
+      "bytes": 133,
+      "sha256": "e7a41e3500fe14039a83abb7cb20cc6eb1c23c3d2b08793e53202be8a86a66d3"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/F01/seed0/final_evaluation/test_logits.npz",
+      "bytes": 130744,
+      "sha256": "5fb0b9df54dfd0d1d0f695ba57f9c0ed5b0cac04f409cd8e21f4716c2cecaebd"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/F01/seed0/final_evaluation/test_report.json",
+      "bytes": 5005,
+      "sha256": "b71bed0dd325fa41d940e7e79d643bfe11090a142abcdbd0bf36e1aed82cb02f"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/F01/seed0/final_evaluation/test_started.json",
+      "bytes": 423,
+      "sha256": "e4b22f6f1d222ae0d215940c45ba7f0f6e7a31c4d6e10c5f7b646d108febe8c0"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/F01/seed0/final_evaluation/val_logits.npz",
+      "bytes": 142496,
+      "sha256": "654001297200b8107cc7ee81f680876c5ec3d09032663312cf902a0b2bfe6b47"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/F01/seed0/final_evaluation/val_report.json",
+      "bytes": 11260,
+      "sha256": "8093381bb1d0bb65ba041faec5778e79c5120b4c9b2ab3104a1c5d012c779485"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/F01/seed0/history.csv",
+      "bytes": 1776,
+      "sha256": "0b6af2c2dcdda339bdf7e7ed2c120beae311d9f165cfd63823a417ba1f6d892e"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/F01/seed0/preprocessing.json",
+      "bytes": 1013,
+      "sha256": "493d2b5d314fedfedd701fa41d3de52761a550e80cee6cb149e63876c290ec2b"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/F01/seed0/split_check.json",
+      "bytes": 744,
+      "sha256": "5d005552ee81098177e32cd98bf469f28a08e434c41921991019434f812b8e2f"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/F01/seed0/summary.json",
+      "bytes": 572,
+      "sha256": "a19bce4c6a1aa838ca3ecedd0b1196d1dd3680884477ebfd5dc4b9ce374e489f"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/F01/seed0/val_logits.npz",
+      "bytes": 142791,
+      "sha256": "9a95c6f7b0cab85089f08dc973f6a994236d76a014b566bb3eb6b1f174415d62"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/F01/seed1/config.json",
+      "bytes": 1106,
+      "sha256": "a75e3e112fd364259ff5472411ea805c9c0ab655767a97a219f6a36d6972bca1"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/F01/seed1/curves.png",
+      "bytes": 107537,
+      "sha256": "cfa5fe55415ec657aca126a4c9c0396b2e480798ab3178f0c564c962aeaed934"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/F01/seed1/environment.json",
+      "bytes": 133,
+      "sha256": "e7a41e3500fe14039a83abb7cb20cc6eb1c23c3d2b08793e53202be8a86a66d3"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/F01/seed1/final_evaluation/test_logits.npz",
+      "bytes": 130491,
+      "sha256": "600a60105b0f04ce8ef5d0cc94ce7b28a1f6062ea118c3882213063fd09beb89"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/F01/seed1/final_evaluation/test_report.json",
+      "bytes": 5013,
+      "sha256": "b0908bed8667930ce50e331c99c02be03611881b80453401019a2bb65a940ec0"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/F01/seed1/final_evaluation/test_started.json",
+      "bytes": 423,
+      "sha256": "ccfaf41c287cca1f61244df905a5cb78cac9361ea25de7555260dfd0936819a4"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/F01/seed1/final_evaluation/val_logits.npz",
+      "bytes": 142323,
+      "sha256": "e1c6cc8a0a19f33177498e8f2077ffb68beab589ea57b14a4f81c2820ee1b2d0"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/F01/seed1/final_evaluation/val_report.json",
+      "bytes": 11226,
+      "sha256": "35a8cf617d1df4df41a0ec748cb3e3d461f39a12ff3c9787fb2860815076b653"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/F01/seed1/history.csv",
+      "bytes": 1803,
+      "sha256": "c0b7136817c94c979b42da89d8a3b42bd2bf940918c4f7eb3865cdde8c5c4187"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/F01/seed1/preprocessing.json",
+      "bytes": 1013,
+      "sha256": "493d2b5d314fedfedd701fa41d3de52761a550e80cee6cb149e63876c290ec2b"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/F01/seed1/split_check.json",
+      "bytes": 744,
+      "sha256": "5d005552ee81098177e32cd98bf469f28a08e434c41921991019434f812b8e2f"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/F01/seed1/summary.json",
+      "bytes": 571,
+      "sha256": "7762f87e21fe03f7171af6059f0dffd74b9abd37f1bfbac34cecdbabadeb00b7"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/F01/seed1/val_logits.npz",
+      "bytes": 142427,
+      "sha256": "d63873e090af277ef09d3fb54e3f7ee033a2cadffb6d2d5f029ae8f807f31963"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/F01/seed2/config.json",
+      "bytes": 1105,
+      "sha256": "b254d7eecf5bbbe88d20d30a6fada9a4bffc56beb556473db7226078b74a5040"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/F01/seed2/curves.png",
+      "bytes": 106665,
+      "sha256": "c758a7903eab430c9d82650f6d9f22c915e3a2eff58b4c83f17e46fd6646fc38"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/F01/seed2/environment.json",
+      "bytes": 133,
+      "sha256": "e7a41e3500fe14039a83abb7cb20cc6eb1c23c3d2b08793e53202be8a86a66d3"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/F01/seed2/final_evaluation/test_logits.npz",
+      "bytes": 130607,
+      "sha256": "c2c86f04f352713f5459f1b08a5ce87efd1322ef753fdd114c03fba29ae8c8d2"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/F01/seed2/final_evaluation/test_report.json",
+      "bytes": 4978,
+      "sha256": "0ae8d247cf5817ca98feb5bd8bf87ec6e7af1349f850ba3942bdb46a4256a6e8"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/F01/seed2/final_evaluation/test_started.json",
+      "bytes": 423,
+      "sha256": "e21b7a95f7dca2d3f2a51b3608f3da910a40904766a20ebc58c7af73fd3818d7"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/F01/seed2/final_evaluation/val_logits.npz",
+      "bytes": 142369,
+      "sha256": "179d8b4a6dae5c0ea75969f0976a6eb7009d1f52e3735fe11ae5396ba8d8a98a"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/F01/seed2/final_evaluation/val_report.json",
+      "bytes": 11239,
+      "sha256": "7276be852133f931fca98be1f6a76d2fc9d27d32f3083f3582ffd95d05812225"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/F01/seed2/history.csv",
+      "bytes": 1805,
+      "sha256": "1bdf0ef74841eb5239e2c5bab796d14511de72ad5e2d3f39ecee3821b5f49d13"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/F01/seed2/preprocessing.json",
+      "bytes": 1013,
+      "sha256": "493d2b5d314fedfedd701fa41d3de52761a550e80cee6cb149e63876c290ec2b"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/F01/seed2/split_check.json",
+      "bytes": 744,
+      "sha256": "5d005552ee81098177e32cd98bf469f28a08e434c41921991019434f812b8e2f"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/F01/seed2/summary.json",
+      "bytes": 571,
+      "sha256": "1674c292bd470d4a33f0389ceaca58ad6665820876b1716c5997a46a80236d45"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/F01/seed2/val_logits.npz",
+      "bytes": 142733,
+      "sha256": "8a8b10dd3ab0ffb18c2a62c3dbf9d77b8f166e06a85adf788b78e7f3b7f3adc5"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/T00/seed0/config.json",
+      "bytes": 1106,
+      "sha256": "3bed16e9e9261f68dc3e486d224204a91eae47d5f2fa99919b7ad4ea55a6fa55"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/T00/seed0/curves.png",
+      "bytes": 106210,
+      "sha256": "b37875ca87e225638f06a4c7eb40a77700f7705bc44ccd1708f9ccc0ba62216a"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/T00/seed0/environment.json",
+      "bytes": 133,
+      "sha256": "e7a41e3500fe14039a83abb7cb20cc6eb1c23c3d2b08793e53202be8a86a66d3"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/T00/seed0/final_evaluation/test_logits.npz",
+      "bytes": 133686,
+      "sha256": "e31b299c8d469abf414720cbadecf451ffa1161598ade1eeb1c5c061ca2ed869"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/T00/seed0/final_evaluation/test_report.json",
+      "bytes": 4961,
+      "sha256": "b3ea85d84944c6303fdd115cc7dcc19d2bf55175d2b447ce165a0f508659774d"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/T00/seed0/final_evaluation/test_started.json",
+      "bytes": 405,
+      "sha256": "b40bc7a6f2e8c4ae5c6765578aea34e72a5a385910ce8fa681dd3e76bdbf44ac"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/T00/seed0/final_evaluation/val_logits.npz",
+      "bytes": 144546,
+      "sha256": "8b4b066b193605c0a6d1787a7a9de1405f233efc3a831114443405ea64936deb"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/T00/seed0/final_evaluation/val_report.json",
+      "bytes": 11252,
+      "sha256": "cc4e891218be0802e08965e9c71f7ad5c47ab0e45a3067371ff170f0915be9cc"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/T00/seed0/history.csv",
+      "bytes": 1828,
+      "sha256": "49dd56a3e3fd5b95b06be5c73dc5531297416324052e7d051eb4116e868003b3"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/T00/seed0/preprocessing.json",
+      "bytes": 1013,
+      "sha256": "493d2b5d314fedfedd701fa41d3de52761a550e80cee6cb149e63876c290ec2b"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/T00/seed0/split_check.json",
+      "bytes": 744,
+      "sha256": "5d005552ee81098177e32cd98bf469f28a08e434c41921991019434f812b8e2f"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/T00/seed0/summary.json",
+      "bytes": 568,
+      "sha256": "5ba0b0575de0181a392691ab56c2c4c8f34a940560760fffba4bc2bff482233c"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/T00/seed0/val_logits.npz",
+      "bytes": 144546,
+      "sha256": "8b4b066b193605c0a6d1787a7a9de1405f233efc3a831114443405ea64936deb"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/T00/seed1/config.json",
+      "bytes": 1106,
+      "sha256": "3b7ea6ac200b6f167351ec40112d9ab6d391f7979c76abd3f8f8e75e9f905387"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/T00/seed1/curves.png",
+      "bytes": 108898,
+      "sha256": "1e8176ab579dc0a78339a8e7c5b2670351ee197602054e107d916ec5f9bae615"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/T00/seed1/environment.json",
+      "bytes": 133,
+      "sha256": "e7a41e3500fe14039a83abb7cb20cc6eb1c23c3d2b08793e53202be8a86a66d3"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/T00/seed1/final_evaluation/test_logits.npz",
+      "bytes": 133107,
+      "sha256": "3612bac7d644609152fd2009c53a488b4381bdd0ec3d35a910d80c7411cdd1e1"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/T00/seed1/final_evaluation/test_report.json",
+      "bytes": 4973,
+      "sha256": "07ea42838b0925c5adc8711c54f6513d385154daf55dc80239595aec62567e0d"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/T00/seed1/final_evaluation/test_started.json",
+      "bytes": 405,
+      "sha256": "c973619523c0bfd78bc31f4eeddd1d5defe8593b0f0aec26aa6839e47adc4a3d"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/T00/seed1/final_evaluation/val_logits.npz",
+      "bytes": 144128,
+      "sha256": "c4c0c200b18c06b5b442c11ddc9e9926c825f6c434bad596cdb8f238dd5a4118"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/T00/seed1/final_evaluation/val_report.json",
+      "bytes": 11215,
+      "sha256": "0c193adee744f0c8b2a85f4301b1cadc4386cecff8705a60d4c17146e343fa04"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/T00/seed1/history.csv",
+      "bytes": 1828,
+      "sha256": "868b9e76dd7b2dd5e01597c34f7239b88a39365b904245e8f6a27e83e06eb04c"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/T00/seed1/preprocessing.json",
+      "bytes": 1013,
+      "sha256": "493d2b5d314fedfedd701fa41d3de52761a550e80cee6cb149e63876c290ec2b"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/T00/seed1/split_check.json",
+      "bytes": 744,
+      "sha256": "5d005552ee81098177e32cd98bf469f28a08e434c41921991019434f812b8e2f"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/T00/seed1/summary.json",
+      "bytes": 571,
+      "sha256": "7e1b3c714afdd717a50c1109881a780fd58689884edec1d869a59e73bebadcd8"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/T00/seed1/val_logits.npz",
+      "bytes": 144128,
+      "sha256": "c4c0c200b18c06b5b442c11ddc9e9926c825f6c434bad596cdb8f238dd5a4118"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/T00/seed2/config.json",
+      "bytes": 1106,
+      "sha256": "d8a9db73c6ad483edf35fee2c52c791ee506828f0c6c15960f1dc4f13c9621af"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/T00/seed2/curves.png",
+      "bytes": 107477,
+      "sha256": "4eea1e9a42c1844cd7ecfb340035e5f57a2b7d5a322d9006b7938ef5bded0d27"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/T00/seed2/environment.json",
+      "bytes": 133,
+      "sha256": "e7a41e3500fe14039a83abb7cb20cc6eb1c23c3d2b08793e53202be8a86a66d3"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/T00/seed2/final_evaluation/test_logits.npz",
+      "bytes": 133877,
+      "sha256": "a49a9deed2227c29dc7cf7da0301b26dd256da8781e5cd1b7f4e37ff5409944e"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/T00/seed2/final_evaluation/test_report.json",
+      "bytes": 4967,
+      "sha256": "c2beb4e03e7e03bb9feb63475faa4c1560cbf63e73e92ca4cb8245ae3d33b1b5"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/T00/seed2/final_evaluation/test_started.json",
+      "bytes": 405,
+      "sha256": "00657ad10119b1f7c15d25778a8b93c74ce0b9403ccfc16041eabe412ad931a5"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/T00/seed2/final_evaluation/val_logits.npz",
+      "bytes": 144658,
+      "sha256": "8dd32eb403ec7835168679fa2e2ae63f6f399651c5ab999cf9b360b85425ae07"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/T00/seed2/final_evaluation/val_report.json",
+      "bytes": 11192,
+      "sha256": "57f686c56262fc13903f3718ed0057e6b395dded31bc4689c37e0c2196ba9f8c"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/T00/seed2/history.csv",
+      "bytes": 1828,
+      "sha256": "5df22c24b251bece3226a047e1b9eb190ee58b9d78a8482167a5e9fdb4b73fa1"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/T00/seed2/preprocessing.json",
+      "bytes": 1013,
+      "sha256": "493d2b5d314fedfedd701fa41d3de52761a550e80cee6cb149e63876c290ec2b"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/T00/seed2/split_check.json",
+      "bytes": 744,
+      "sha256": "5d005552ee81098177e32cd98bf469f28a08e434c41921991019434f812b8e2f"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/T00/seed2/summary.json",
+      "bytes": 572,
+      "sha256": "7d0b5cd9cfe63c626ba58a66eda4a8503ad5438185de14914877046cdbbf2037"
+    },
+    {
+      "path": "validation/stage6_kaggle/runs/T00/seed2/val_logits.npz",
+      "bytes": 144658,
+      "sha256": "8dd32eb403ec7835168679fa2e2ae63f6f399651c5ab999cf9b360b85425ae07"
+    },
+    {
+      "path": "validation/stage6_kaggle/stage5_inference_ranked.csv",
+      "bytes": 3372,
+      "sha256": "2b1f8928ed4fdfa37432dedabb32f2d3f4304c9518f877c3d5b57fce7b0ef2c7"
+    },
+    {
+      "path": "validation/stage6_kaggle/stage5_verification.json",
+      "bytes": 4002,
+      "sha256": "acd366e4902d6d807cc5c44ca26c254da30da742bb17a83b49f1d2ff09ada3e0"
+    },
+    {
+      "path": "validation/stage6_kaggle/stage6_manifest.json",
+      "bytes": 2338,
+      "sha256": "35c34e36979c6775178a2da3fe498c010f4ae660efea21b4a0b260c62cb55be8"
+    },
+    {
+      "path": "validation/stage6_kaggle/stage6_summary.json",
+      "bytes": 190,
+      "sha256": "97eca3f5ac7410951dbc0a4751aab3890a64ab90caed4cd0c0b7b03d90d98b05"
+    },
+    {
+      "path": "validation/stage6_kaggle/suite_config.json",
+      "bytes": 7064,
+      "sha256": "6fac6865f435a258d369c776c4cc9ac63e6d03a4c9b088ed48e40dfae96465d0"
+    },
+    {
+      "path": "validation/stage6_kaggle/test_pipeline.py.log",
+      "bytes": 2571,
+      "sha256": "cd0710e491b5504989f288bcf3309246aab6e69625c42ca3cc11585a383fc207"
+    },
+    {
+      "path": "validation/stage6_kaggle/test_stage5.py.log",
+      "bytes": 735,
+      "sha256": "b6904e5c41c19a781ae881a115e2af8160f1ba525f2e891314c86e7bdfa59f13"
+    },
+    {
+      "path": "validation/stage6_kaggle/test_stage6.py.log",
+      "bytes": 1490,
+      "sha256": "015370874003e5f06994fbf0e1763b5dbdd507fbc365c4e2f0e1eae01f23f4e1"
+    },
+    {
+      "path": "validation/stage6_kaggle/verification.json",
+      "bytes": 1932,
+      "sha256": "f74c1e4df4cf81707e96b7b0993f6fcd995d0d53da20f7fda038f2c85cc2b273"
+    },
+    {
+      "path": "validation/stage7_audit/F01_confusion_sum.csv",
+      "bytes": 492,
+      "sha256": "e958010cabb773ff7710998878c42000e879f491833e28de1389d9e7ab9c8a37"
+    },
+    {
+      "path": "validation/stage7_audit/F01_per_class.csv",
+      "bytes": 1305,
+      "sha256": "b8b64ea6cd362512d21b1523641f2c51130753ab444fe69c1082c05eb0df5d5c"
+    },
+    {
+      "path": "validation/stage7_audit/F01_per_seed.csv",
+      "bytes": 421,
+      "sha256": "b9ddfe4ea41a78e089984725d00c4cd1364aa848176fc92db0894330086f4b81"
+    },
+    {
+      "path": "validation/stage7_audit/F01_score.txt",
+      "bytes": 1159,
+      "sha256": "f6f5762d88ec9aa6a09fa6de0b4f077912e915a1c90577c815e7f8270f74f134"
+    },
+    {
+      "path": "validation/stage7_audit/F01_summary.json",
+      "bytes": 2376,
+      "sha256": "e99a4c04b708475dd2ec3228c42db9f6e52ef5935a76160f02a8acdffef7a98b"
+    },
+    {
+      "path": "validation/stage7_audit/F01_uncal_confusion_sum.csv",
+      "bytes": 492,
+      "sha256": "e958010cabb773ff7710998878c42000e879f491833e28de1389d9e7ab9c8a37"
+    },
+    {
+      "path": "validation/stage7_audit/F01_uncal_per_class.csv",
+      "bytes": 1305,
+      "sha256": "b8b64ea6cd362512d21b1523641f2c51130753ab444fe69c1082c05eb0df5d5c"
+    },
+    {
+      "path": "validation/stage7_audit/F01_uncal_per_seed.csv",
+      "bytes": 434,
+      "sha256": "77598cb6366755e5ef9b0652999069029a4980ea49f47f5b67dbf64adb9d66c1"
+    },
+    {
+      "path": "validation/stage7_audit/F01_uncal_score.txt",
+      "bytes": 1171,
+      "sha256": "b0afc5fe67f28775acb5f8e50aeca803c6dd411178659089007a124a78a687ae"
+    },
+    {
+      "path": "validation/stage7_audit/F01_uncal_summary.json",
+      "bytes": 2375,
+      "sha256": "fbbea29cc1a06b5e6c405b94b6bb88daaa47e87b827d47731f01aadd24bfebdf"
+    },
+    {
+      "path": "validation/stage7_audit/final_audit.json",
+      "bytes": 912,
+      "sha256": "74b3c3f6a35d3df16f0bc9ed600aecf18b3c02e71a987c28807ca6f53d486ab3"
+    },
+    {
+      "path": "validation/stage7_audit/grade.txt",
+      "bytes": 876,
+      "sha256": "c8a0e8aed36c7a072c4d0962e81545ecd24e00c44a7677d2e5a8eaad7baa1308"
+    },
+    {
+      "path": "validation/stage7_audit/grade_I.json",
+      "bytes": 1183,
+      "sha256": "5fdc1a58fcc2c24d4b6cc70008db9739189f9f6cd6901c3ecd5e4d9261a1290a"
+    },
+    {
+      "path": "validation/stage7_audit/results_data.json",
+      "bytes": 60164,
+      "sha256": "b9bdc2c806ab135c15b5efc7863b14f6434739407cfbea0a2c06c56c935aa89a"
+    },
+    {
+      "path": "validation/stage7_audit/T00_confusion_sum.csv",
+      "bytes": 495,
+      "sha256": "da47b3d772d99fe7c6b77ba082ceae7f29dcbe8e2ce99b6ed6cb306be140e59b"
+    },
+    {
+      "path": "validation/stage7_audit/T00_per_class.csv",
+      "bytes": 1288,
+      "sha256": "1e2f88d958f11d2270bb42008f094559cbadd56d4d2524f49aea75d00e0346ae"
+    },
+    {
+      "path": "validation/stage7_audit/T00_per_seed.csv",
+      "bytes": 421,
+      "sha256": "9a7f3187650cb4da67430b855978676058d90a7e60521794a8b0015edc029145"
+    },
+    {
+      "path": "validation/stage7_audit/T00_score.txt",
+      "bytes": 1159,
+      "sha256": "c2e62a3912fbabc6f0796f83b90ecf365e847f0e9c79c2d8e8a9ce2b57417d46"
+    },
+    {
+      "path": "validation/stage7_audit/T00_summary.json",
+      "bytes": 2361,
+      "sha256": "5d3ae3dad8dcb6aa7d753f2a2a1f5b7ef1885c64f100df8ff8ccc5462bf07bfb"
+    },
+    {
+      "path": "validation/stage7_audit/workbook_audit.json",
+      "bytes": 253,
+      "sha256": "baeb352484011395f232a859a023944e3dea1dff9a5d945a82a1ae52c23e3a3b"
+    }
+  ]
+}
