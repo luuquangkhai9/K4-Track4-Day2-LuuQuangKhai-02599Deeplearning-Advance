@@ -1,0 +1,12 @@
+
+test_crop_coordinates_and_flip (__main__.InferenceTests.test_crop_coordinates_and_flip) ... ok
+test_fusion_matches_explicit_sequential_graph (__main__.InferenceTests.test_fusion_matches_explicit_sequential_graph) ... ok
+test_partial_output_not_complete (__main__.InferenceTests.test_partial_output_not_complete) ... ok
+test_probability_vs_logit_aggregation (__main__.InferenceTests.test_probability_vs_logit_aggregation) ... ok
+test_real_forward_view_and_aggregation (__main__.InferenceTests.test_real_forward_view_and_aggregation) ... ok
+test_temperature_nll_and_argmax (__main__.InferenceTests.test_temperature_nll_and_argmax) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.043s
+
+OK

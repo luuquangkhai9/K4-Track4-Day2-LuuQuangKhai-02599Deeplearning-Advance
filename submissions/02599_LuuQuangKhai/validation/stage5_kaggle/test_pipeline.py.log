@@ -1,0 +1,31 @@
+Split: {'train': 10501, 'val': 3501, 'test': 3507} overlap: {'train_val': 0, 'train_test': 0, 'val_test': 0}
+S_resume seed=0 epoch=1/2: loss=2.2154 val_F1=0.0222 val_top1=0.1111 seconds=0.4
+S_resume seed=0 epoch=2/2: loss=2.1755 val_F1=0.0222 val_top1=0.1111 seconds=0.0
+S_resume seed=0 epoch=1/2: loss=2.2154 val_F1=0.0222 val_top1=0.1111 seconds=0.0
+S_resume seed=0 epoch=2/2: loss=2.1755 val_F1=0.0222 val_top1=0.1111 seconds=0.0
+Already completed: /tmp/tmpwo5331rx/resumed/S_resume/seed0
+
+test_cutmix_uses_actual_area (__main__.PipelineTests.test_cutmix_uses_actual_area) ... ok
+test_ema_parameters_and_bn_buffers (__main__.PipelineTests.test_ema_parameters_and_bn_buffers) ... ok
+test_eval_repeatable_and_preserves_bn (__main__.PipelineTests.test_eval_repeatable_and_preserves_bn) ... ok
+test_focal_and_smoothing_reduce_to_ce (__main__.PipelineTests.test_focal_and_smoothing_reduce_to_ce) ... ok
+test_original_split_and_stage1_receipt (__main__.PipelineTests.test_original_split_and_stage1_receipt) ... ok
+test_override_types (__main__.PipelineTests.test_override_types) ... ok
+test_parameter_groups_and_frozen_bn (__main__.PipelineTests.test_parameter_groups_and_frozen_bn) ... ok
+test_real_timm_mobile_forward (__main__.PipelineTests.test_real_timm_mobile_forward) ... ok
+test_resume_matches_uninterrupted_and_never_reads_test_images (__main__.PipelineTests.test_resume_matches_uninterrupted_and_never_reads_test_images) ... /usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:64: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+  prop = Group((name + Suppress("=") + comma_separated(value)) | oneOf(_CONSTANTS))
+/usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:85: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+  parse = parser.parseString(pattern)
+/usr/local/lib/python3.13/dist-packages/matplotlib/_fontconfig_pattern.py:89: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+  parser.resetCache()
+/usr/local/lib/python3.13/dist-packages/matplotlib/_mathtext.py:45: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+  ParserElement.enablePackrat()
+In /usr/local/lib/python3.13/dist-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'parseString' deprecated - use 'parse_string'
+In /usr/local/lib/python3.13/dist-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'resetCache' deprecated - use 'reset_cache'
+ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 3.583s
+
+OK

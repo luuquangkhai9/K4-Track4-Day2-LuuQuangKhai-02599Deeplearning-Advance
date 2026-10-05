@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "completed": 16,
+  "planned": 16,
+  "test_evaluated": false,
+  "final_recipe_frozen": false,
+  "calibration_metrics": "Temperature fitted and evaluated on full val; apparent fit, not independent calibration evaluation.",
+  "val_leader": {
+    "training_exp": "T05_smoothing",
+    "method": "I04_res288"
+  }
+}

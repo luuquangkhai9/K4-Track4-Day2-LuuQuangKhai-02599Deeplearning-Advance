@@ -1,0 +1,16 @@
+{
+  "training_source": "T05_smoothing",
+  "backbone": "convnext_tiny.fb_in1k",
+  "loss": "ls",
+  "inference_method": "I04_res288",
+  "inference_resolution": 288,
+  "dtype": "fp32",
+  "temperature_policy": "Fit scalar T on final-resolution val logits separately per seed; never on test.",
+  "baseline": "T00 CE + I00 FP32 224 without calibration",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "reason": "Highest stage5 val macro-F1; measured batch1 p95 15.4685 ms. Temperature is an accuracy-preserving calibration rule motivated by stage5 I07."
+}

@@ -1,0 +1,9 @@
+{
+  "completed_and_profiled": 5,
+  "planned": 5,
+  "status": "complete",
+  "test_evaluated": false,
+  "selection_is_provisional": false,
+  "val_leader": "B02_convnext_tiny",
+  "note": "One-seed screening only; do not infer significance from small differences."
+}

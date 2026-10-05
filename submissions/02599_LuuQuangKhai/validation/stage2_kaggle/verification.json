@@ -1,0 +1,26 @@
+{
+  "verified_date": "2026-10-05",
+  "source_code_matches": true,
+  "prediction_metrics_match": true,
+  "checkpoints_included": false,
+  "results": {
+    "S01_full_epoch": {
+      "n": 3501,
+      "top1": 0.7523564695801199,
+      "macro_f1": 0.6476083016118144,
+      "balanced_acc": 0.5840323276943309,
+      "ece": 0.04831636738931737,
+      "nll": 0.7198195109573541,
+      "amp_skipped_steps": 0
+    },
+    "S02_resume": {
+      "n": 9,
+      "top1": 0.2222222222222222,
+      "macro_f1": 0.08148148148148149,
+      "balanced_acc": 0.2222222222222222,
+      "ece": 0.11009094777777775,
+      "nll": 2.1972006227066903,
+      "amp_skipped_steps": 1
+    }
+  }
+}

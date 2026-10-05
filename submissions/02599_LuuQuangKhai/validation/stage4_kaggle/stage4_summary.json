@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "completed": 8,
+  "planned": 8,
+  "val_leader": "T05_smoothing",
+  "test_evaluated": false,
+  "seed_count": 1,
+  "final_recipe_frozen": false,
+  "note": "Training candidates for inference screening; final and baseline need >=3 seeds later."
+}

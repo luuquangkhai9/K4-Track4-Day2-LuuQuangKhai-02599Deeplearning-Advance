@@ -1,0 +1,11 @@
+
+test_combination_selects_each_axis_against_baseline (__main__.Stage4Tests.test_combination_selects_each_axis_against_baseline) ... ok
+test_export_keeps_manifest_and_excludes_weights (__main__.Stage4Tests.test_export_keeps_manifest_and_excludes_weights) ... ok
+test_independent_axes_and_shared_recipe (__main__.Stage4Tests.test_independent_axes_and_shared_recipe) ... ok
+test_no_test_or_subset (__main__.Stage4Tests.test_no_test_or_subset) ... ok
+test_ties_keep_baseline_and_partial_is_rejected (__main__.Stage4Tests.test_ties_keep_baseline_and_partial_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK

@@ -1,0 +1,43 @@
+{
+  "archive_sha256": "281a4c775ed1b4fdd591202b514f4b36801159c97ea4eff38f872ac9032d4b66",
+  "crc": "PASS",
+  "code_bytes_match": true,
+  "official_evaluator_unchanged": true,
+  "full_val_predictions_and_logits_match": true,
+  "test_evaluated": false,
+  "checkpoints_in_small_zip": false,
+  "runs": [
+    {
+      "exp_id": "B01_resnet50",
+      "macro_f1": 0.8442662513874956,
+      "top1": 0.8834618680377035,
+      "epochs": 10
+    },
+    {
+      "exp_id": "B02_convnext_tiny",
+      "macro_f1": 0.9646030418618088,
+      "top1": 0.9725792630676949,
+      "epochs": 10
+    },
+    {
+      "exp_id": "B03_deit_small",
+      "macro_f1": 0.9587940141332955,
+      "top1": 0.969437303627535,
+      "epochs": 10
+    },
+    {
+      "exp_id": "B04_efficientnet_b0",
+      "macro_f1": 0.9190667313846281,
+      "top1": 0.9391602399314481,
+      "epochs": 10
+    },
+    {
+      "exp_id": "B05_mobilenetv3",
+      "macro_f1": 0.8872986148491496,
+      "top1": 0.9117395029991431,
+      "epochs": 10
+    }
+  ],
+  "selected_backbone": "convnext_tiny.fb_in1k",
+  "selection_reason": "Highest validation macro-F1 among five completed seed-0 runs"
+}

@@ -1,0 +1,79 @@
+{
+  "archive_sha256": "eb511cb7e2d6619dac5010eb3d44692d32043c92148fd5eecd14ad4d2a48db74",
+  "crc": "PASS",
+  "code_bytes_match": true,
+  "official_evaluator_unchanged": true,
+  "full_val_predictions_and_logits_match": true,
+  "per_class_metrics_and_deltas_match": true,
+  "combination_selection_verified": true,
+  "kaggle_tests": {
+    "test_pipeline.py": "PASS",
+    "test_stage3.py": "PASS",
+    "test_stage4.py": "PASS"
+  },
+  "notebook_errors": 0,
+  "test_evaluated": false,
+  "checkpoints_in_small_zip": false,
+  "runs": [
+    {
+      "exp_id": "T00",
+      "macro_f1": 0.9646030418618088,
+      "top1": 0.9725792630676949,
+      "ece": 0.007416709034561396,
+      "best_epoch": 9
+    },
+    {
+      "exp_id": "T01_scratch",
+      "macro_f1": 0.33255431879890435,
+      "top1": 0.5898314767209368,
+      "ece": 0.024400357412168006,
+      "best_epoch": 8
+    },
+    {
+      "exp_id": "T02_frozen",
+      "macro_f1": 0.7162608457130186,
+      "top1": 0.7837760639817195,
+      "ece": 0.05114392645529848,
+      "best_epoch": 10
+    },
+    {
+      "exp_id": "T03_randaug",
+      "macro_f1": 0.9565522928736527,
+      "top1": 0.9662953441873751,
+      "ece": 0.007782106823764833,
+      "best_epoch": 8
+    },
+    {
+      "exp_id": "T04_cutmix",
+      "macro_f1": 0.9593144018355653,
+      "top1": 0.969437303627535,
+      "ece": 0.016895703844615896,
+      "best_epoch": 9
+    },
+    {
+      "exp_id": "T05_smoothing",
+      "macro_f1": 0.9646642447562856,
+      "top1": 0.9740074264495858,
+      "ece": 0.09483086528420456,
+      "best_epoch": 10
+    },
+    {
+      "exp_id": "T06_focal",
+      "macro_f1": 0.9600098539719405,
+      "top1": 0.9685804055984004,
+      "ece": 0.06066008548414751,
+      "best_epoch": 10
+    },
+    {
+      "exp_id": "T07_combined",
+      "macro_f1": 0.9646642447562856,
+      "top1": 0.9740074264495858,
+      "ece": 0.09483086528420456,
+      "best_epoch": 10
+    }
+  ],
+  "candidate": "T05_smoothing",
+  "baseline": "T00",
+  "combination_is_single_axis_repeat": true,
+  "note": "T05 and T07 use the same recipe and seed; they are not independent seeds or a multi-factor gain."
+}

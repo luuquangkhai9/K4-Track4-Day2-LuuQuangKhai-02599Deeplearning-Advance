@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "initial_ce": 2.1644864082336426,
+  "uniform_reference": 2.1972245773362196,
+  "final_ce": 0.0012123531196266413,
+  "accuracy": 1.0,
+  "steps": 10,
+  "seconds": 10.90651330000037,
+  "backbone": "mobilenetv3_large_100.ra_in1k",
+  "device": "cpu",
+  "test_evaluated": false,
+  "diagnostic_only": true,
+  "head_init_std": 0.01,
+  "initial_logits_std": 0.16032958030700684,
+  "uniform_ce": 2.1972246170043945
+}

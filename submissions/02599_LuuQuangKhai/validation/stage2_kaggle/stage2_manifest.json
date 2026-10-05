@@ -1,0 +1,19 @@
+{
+  "README.md": "c07b53f0fe2c73308df15a8f8cb41ffd265df8d700622a6410993f98f0312a43",
+  "STAGE2.md": "644149cce4b3a5fb2da1f935bc1052b7414a1dff12dea57f8580b1c28022539b",
+  "code/benchmark.py": "526a58dcca9ac6a493ee1c8e6655d9d0d72c7c7ffc29dfc7e517241dd6cddbfb",
+  "code/dataset.py": "ed9a77345ac3c10fb0976e769edb4b639773a02889fb4911008a6e8e274ae812",
+  "code/eval.py": "1210f3c7ca1cb9b4488383f1ceeaa139bfdf5c683694b300f6c55b6b9cdde28e",
+  "code/inference.py": "af39ac6d65e7baf125eacfc7233e57e2c396659999f2e51d45df674d15e2f5d7",
+  "code/losses.py": "38fb990608065cd860dcedff0be5bcea53cd7429f0f9ad7572b611516676e497",
+  "code/model.py": "8db5bbca5261bf25eca9842a932aa0bbb4d9ff8bd906118718b09b607dc288fc",
+  "code/smoke_checks.py": "7b7963f1e26255e22d5034d942b656e89a3e6ac93d0948ac2c09e552d802b68b",
+  "code/stage1.py": "f1a9bdae86d35820385978c2ee84e11f295d202850370a0eb7fa166980aaf7bd",
+  "code/train.py": "fb7f4bf09a96ca7400de16faa70815199a6b613a2841123ccfed28cebf6ddf14",
+  "tests/test_pipeline.py": "c3ff883251cdff840827182d3bd29cf0982121f0b507c5972abd92aaa88957b7",
+  "labels/labels.csv": "6fb95b89fd9d384f94e185a5cab6c5da7c987649399c90618ecc60acfb0112eb",
+  "labels/test_subset0.csv": "fb212793b988bc0455aae2e48cb9eb3168014c2f47fbdb93f5f1e284e0974f75",
+  "labels/train_subset0.csv": "a2e63f561a545837c8cabaa276a957ccf1293ec985c9d8fbc49d67b4fd5abdb2",
+  "labels/val_subset0.csv": "1fa70a03a68def06c921a1dd7f0b53e96490f6dfad51d7d423bb145161ebc478",
+  "eda/kaggle/stage1_summary.json": "2dba7405ad843c7f5b2626a5cb0e4e7fc3c9f54ca1253df234c7956bb36710a6"
+}
